@@ -1,0 +1,53 @@
+{
+  "name": "vscode-elmer",
+  "displayName": "Elmer",
+  "description": "Elmer FEM Solver Input File (.sif) language support for Visual Studio Code",
+  "version": "0.1.0",
+  "publisher": "elmer-community",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "elmer",
+    "elmerfem",
+    "sif",
+    "fem",
+    "finite element",
+    "simulation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/vscode-elmer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/vscode-elmer/issues"
+  },
+  "homepage": "https://www.elmerfem.org/",
+  "contributes": {
+    "languages": [
+      {
+        "id": "elmer",
+        "aliases": [
+          "Elmer",
+          "ElmerFEM",
+          "SIF"
+        ],
+        "extensions": [
+          ".sif"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "elmer",
+        "scopeName": "source.sif",
+        "path": "./syntaxes/elmer.tmLanguage.json"
+      }
+    ]
+  }
+}

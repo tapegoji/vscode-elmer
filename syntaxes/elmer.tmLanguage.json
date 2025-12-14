@@ -1,0 +1,161 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Elmer",
+  "scopeName": "source.sif",
+  "patterns": [
+    { "include": "#comments" },
+    { "include": "#strings" },
+    { "include": "#block-keywords" },
+    { "include": "#type-keywords" },
+    { "include": "#booleans" },
+    { "include": "#numbers" },
+    { "include": "#operators" },
+    { "include": "#matc-expressions" },
+    { "include": "#keywords" }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.exclamation.elmer",
+          "match": "!.*$"
+        }
+      ]
+    },
+    "strings": {
+      "patterns": [
+        {
+          "name": "string.quoted.double.elmer",
+          "begin": "\"",
+          "end": "\"",
+          "patterns": [
+            {
+              "name": "constant.character.escape.elmer",
+              "match": "\\\\."
+            }
+          ]
+        }
+      ]
+    },
+    "block-keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.block.elmer",
+          "match": "(?i)^\\s*(Header|Simulation|Constants|Equation|Solver|Material|Body\\s+Force|Body|Boundary\\s+Condition|Initial\\s+Condition|Component|Boundary)\\b"
+        },
+        {
+          "name": "keyword.control.end.elmer",
+          "match": "(?i)\\bEnd\\b"
+        }
+      ]
+    },
+    "type-keywords": {
+      "patterns": [
+        {
+          "name": "storage.type.elmer",
+          "match": "(?i)\\b(Real|Integer|Logical|String|Variable|File)\\b"
+        }
+      ]
+    },
+    "booleans": {
+      "patterns": [
+        {
+          "name": "constant.language.boolean.elmer",
+          "match": "(?i)\\b(True|False)\\b"
+        }
+      ]
+    },
+    "numbers": {
+      "patterns": [
+        {
+          "name": "constant.numeric.float.elmer",
+          "match": "\\b[+-]?\\d+\\.\\d*([eEdD][+-]?\\d+)?\\b"
+        },
+        {
+          "name": "constant.numeric.float.elmer",
+          "match": "\\b[+-]?\\d+[eEdD][+-]?\\d+\\b"
+        },
+        {
+          "name": "constant.numeric.float.elmer",
+          "match": "\\b[+-]?\\.\\d+([eEdD][+-]?\\d+)?\\b"
+        },
+        {
+          "name": "constant.numeric.integer.elmer",
+          "match": "\\b[+-]?\\d+\\b"
+        }
+      ]
+    },
+    "operators": {
+      "patterns": [
+        {
+          "name": "keyword.operator.elmer",
+          "match": "=|\\+|-"
+        }
+      ]
+    },
+    "matc-expressions": {
+      "patterns": [
+        {
+          "name": "meta.embedded.matc.elmer",
+          "begin": "\\$",
+          "end": "\\$",
+          "patterns": [
+            {
+              "name": "variable.other.matc.elmer",
+              "match": "[^$]+"
+            }
+          ]
+        }
+      ]
+    },
+    "keywords": {
+      "patterns": [
+        {
+          "comment": "Simulation keywords",
+          "name": "variable.parameter.elmer",
+          "match": "(?i)\\b(Max Output Level|Coordinate System|Coordinate Mapping|Simulation Type|Steady State Max Iterations|Steady State Min Iterations|Output Intervals|Output Level|Coordinate Scaling|Timestep(?:ping)? Method|BDF Order|Timestep [Ii]ntervals|Timestep Sizes?|Output File|Output File Final Only|Mesh DB|Results Directory|Check Keywords|Restart File|Restart Position|Angular Frequency|Frequency|Extruded Mesh Levels|Extruded Mesh Ratio|Post File|Solver Input File|Mesh Input File|Binary Output|Mesh Keep|Use Mesh Names)\\b"
+        },
+        {
+          "comment": "Solver keywords",
+          "name": "variable.parameter.elmer",
+          "match": "(?i)\\b(Equation|Procedure|Exec Solver|Steady State Convergence Tolerance|Nonlinear System Convergence Tolerance|Nonlinear System Max Iterations|Nonlinear System Min Iterations|Nonlinear System Relaxation Factor|Nonlinear System Newton After Iterations|Nonlinear System Newton After Tolerance|Linear System Solver|Linear System Direct Method|Linear System Iterative Method|Linear System Max Iterations|Linear System Convergence Tolerance|Linear System Preconditioning|Linear System Residual Output|Linear System Abort Not Converged|Linear System Symmetric|Use Tree Gauge|Exported Variable|Potential Variable|Calculate Current Density|Calculate Joule Heating|Calculate Magnetic Field Strength|Calculate Magnetic Flux Density|Calculate Elemental Fields|Calculate Nodal Fields|Calculate Relative Permeability|Calculate Harmonic Loss|Calculate Energy Norm|Calculate Loads|Optimize Bandwidth|Stabilize|Bubbles|Variable|Variable DOFs|Element|Namespace|Lumped Mass Matrix|Time Derivative Order|Eigen Analysis|Eigen System Values|Eigen System Select|Parallel Reduce|Save Geometry Ids|Save Bulk Only|Save Nodal Fields|Vtu Format|Vtu Part Collection|Output File Name|FileName|Output Directory|Mask Name|Operator|Save Scalars|Discontinuous Bodies|Separate Magnetic Energy|Harmonic Loss Linear Frequency Exp|Harmonic Loss Linear Exp|Harmonic Loss Linear Coefficient|Harmonic Loss Quadratic Coefficient)\\b"
+        },
+        {
+          "comment": "Material keywords",
+          "name": "variable.parameter.elmer",
+          "match": "(?i)\\b(Density|Electric Conductivity|Electrical Conductivity|Emissivity|Heat Capacity|Heat Conductivity|Relative Permeability|Relative Permittivity|Permeability of Vacuum|Permittivity of Vacuum|Viscosity|Heat [Ee]xpansion Coefficient|Sound [Ss]peed|Youngs Modulus|Poisson Ratio|Bulk Modulus|Magnetic Permeability|Reluctivity|H-B Curve|Name)\\b"
+        },
+        {
+          "comment": "Body keywords",
+          "name": "variable.parameter.elmer",
+          "match": "(?i)\\b(Target Bodies|Material|Initial Condition|Body Force)\\b"
+        },
+        {
+          "comment": "Boundary Condition keywords",
+          "name": "variable.parameter.elmer",
+          "match": "(?i)\\b(Target Boundaries|AV|AV \\{e\\}|Temperature|Pressure|Velocity|Displacement|Heat Flux|Normal Force|Electric Potential|Magnetic Vector Potential|Current Density|Periodic BC|Mortar BC|Normal-Tangential|Slip|Wall|Inlet|Outlet|Symmetry|Anti Symmetry|Constraint Modes Analysis|External Temperature|Heat Transfer Coefficient|Radiation)\\b"
+        },
+        {
+          "comment": "Constants keywords",
+          "name": "variable.parameter.elmer",
+          "match": "(?i)\\b(Gravity|Permeability of Vacuum|Permittivity of Vacuum|Stefan Boltzmann|Boltzmann Constant|Unit Charge|Gas Constant)\\b"
+        },
+        {
+          "comment": "Initial Condition keywords",
+          "name": "variable.parameter.elmer",
+          "match": "(?i)\\b(Temperature|Pressure|Velocity|Concentration|Displacement|Mesh Update|Potential|AV|AV \\{e\\})\\b"
+        },
+        {
+          "comment": "Common solver methods",
+          "name": "support.constant.elmer",
+          "match": "(?i)\\b(MUMPS|UMFPACK|Pardiso|Direct|Iterative|CG|CGS|BiCGStab|BiCGStabl|TFQMR|GMRES|GCR|Idrs|Jacobi|ILU[0-9]?|ILUT|Diagonal|None|Always|Never|Before Simulation|After Simulation|Before Timestep|After Timestep|Before All|After All|After Saving|Transient|Steady State|Scanning|Cartesian|Cylindric|Cylindric Symmetric|Axi Symmetric)\\b"
+        },
+        {
+          "comment": "Active solvers",
+          "name": "variable.parameter.elmer",
+          "match": "(?i)\\bActive Solvers\\b"
+        }
+      ]
+    }
+  }
+}
