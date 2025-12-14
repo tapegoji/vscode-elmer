@@ -1,0 +1,5816 @@
+{
+  "simulation": {
+    "initial parameter 1": {
+      "name": "Initial Parameter 1",
+      "type": "Real"
+    },
+    "output variable 1": {
+      "name": "Output Variable 1",
+      "type": "String"
+    },
+    "restart variable 1": {
+      "name": "Restart Variable 1",
+      "type": "String"
+    },
+    "target variable 1": {
+      "name": "Target Variable 1",
+      "type": "String"
+    },
+    "timestep intervals": {
+      "name": "Timestep Intervals",
+      "type": "Integer"
+    },
+    "control procedure": {
+      "name": "Control Procedure",
+      "type": "File"
+    },
+    "gebhardt factors": {
+      "name": "Gebhardt Factors",
+      "type": "File"
+    },
+    "gebhart factors": {
+      "name": "Gebhart Factors",
+      "type": "File"
+    },
+    "mesh input file": {
+      "name": "Mesh Input File",
+      "type": "File"
+    },
+    "mesh": {
+      "name": "Mesh",
+      "type": "File"
+    },
+    "output file": {
+      "name": "Output File",
+      "type": "File"
+    },
+    "post file": {
+      "name": "Post File",
+      "type": "File"
+    },
+    "restart file": {
+      "name": "Restart File",
+      "type": "File"
+    },
+    "solver input file": {
+      "name": "Solver Input File",
+      "type": "File"
+    },
+    "view factors": {
+      "name": "View Factors",
+      "type": "File"
+    },
+    "adaptive keep smallest": {
+      "name": "Adaptive Keep Smallest",
+      "type": "Integer"
+    },
+    "bdf order": {
+      "name": "BDF Order",
+      "type": "Integer"
+    },
+    "coordinate mapping": {
+      "name": "Coordinate Mapping",
+      "type": "Integer"
+    },
+    "extruded coordinate index": {
+      "name": "Extruded Coordinate Index",
+      "type": "Integer"
+    },
+    "extruded mesh levels": {
+      "name": "Extruded Mesh Levels",
+      "type": "Integer"
+    },
+    "extruded mesh layers": {
+      "name": "Extruded Mesh Layers",
+      "type": "Integer"
+    },
+    "max output level": {
+      "name": "Max Output Level",
+      "type": "Integer"
+    },
+    "mesh keep": {
+      "name": "Mesh Keep",
+      "type": "Integer"
+    },
+    "mesh levels": {
+      "name": "Mesh Levels",
+      "type": "Integer"
+    },
+    "min output level": {
+      "name": "Min Output Level",
+      "type": "Integer"
+    },
+    "output intervals": {
+      "name": "Output Intervals",
+      "type": "Integer"
+    },
+    "output level": {
+      "name": "Output Level",
+      "type": "Integer"
+    },
+    "restart position": {
+      "name": "Restart Position",
+      "type": "Integer"
+    },
+    "runge-kutta order": {
+      "name": "Runge-Kutta Order",
+      "type": "Integer"
+    },
+    "steady state max iterations": {
+      "name": "Steady State Max Iterations",
+      "type": "Integer"
+    },
+    "steady state min iterations": {
+      "name": "Steady State Min Iterations",
+      "type": "Integer"
+    },
+    "adaptive timestepping": {
+      "name": "Adaptive Timestepping",
+      "type": "Logical"
+    },
+    "binary output": {
+      "name": "Binary Output",
+      "type": "Logical"
+    },
+    "coupled system abort not converged": {
+      "name": "Coupled System Abort Not Converged",
+      "type": "Logical"
+    },
+    "filename numbering": {
+      "name": "Filename Numbering",
+      "type": "Logical"
+    },
+    "initializaton phase": {
+      "name": "Initializaton Phase",
+      "type": "Logical"
+    },
+    "initialize dirichlet conditions": {
+      "name": "Initialize Dirichlet Conditions",
+      "type": "Logical"
+    },
+    "mesh keep grading": {
+      "name": "Mesh Keep Grading",
+      "type": "Logical"
+    },
+    "omit unchanged variables in output": {
+      "name": "Omit unchanged variables in output",
+      "type": "Logical"
+    },
+    "output caller": {
+      "name": "Output Caller",
+      "type": "Logical"
+    },
+    "output coordinates": {
+      "name": "Output Coordinates",
+      "type": "Logical"
+    },
+    "output global variables": {
+      "name": "Output Global Variables",
+      "type": "Logical"
+    },
+    "output prefix": {
+      "name": "Output Prefix",
+      "type": "Logical"
+    },
+    "output version numbers": {
+      "name": "Output Version Numbers",
+      "type": "Logical"
+    },
+    "set dirichlet bcs by bc numbering": {
+      "name": "Set Dirichlet BCs by BC Numbering",
+      "type": "Logical"
+    },
+    "simulation timing": {
+      "name": "Simulation Timing",
+      "type": "Logical"
+    },
+    "serendipity p elements": {
+      "name": "Serendipity P Elements",
+      "type": "Logical"
+    },
+    "ascii output": {
+      "name": "Ascii Output",
+      "type": "Logical"
+    },
+    "adaptive error measure": {
+      "name": "Adaptive Error Measure",
+      "type": "Real"
+    },
+    "adaptive max timestep": {
+      "name": "Adaptive Max Timestep",
+      "type": "Real"
+    },
+    "adaptive min timestep": {
+      "name": "Adaptive Min Timestep",
+      "type": "Real"
+    },
+    "adaptive time error": {
+      "name": "Adaptive Time Error",
+      "type": "Real"
+    },
+    "angular frequency": {
+      "name": "Angular Frequency",
+      "type": "Real"
+    },
+    "artificial compressibility scaling": {
+      "name": "Artificial Compressibility Scaling",
+      "type": "Real"
+    },
+    "bossak alpha": {
+      "name": "Bossak Alpha",
+      "type": "Real"
+    },
+    "coordinate scaling": {
+      "name": "Coordinate Scaling",
+      "type": "Real"
+    },
+    "cost function": {
+      "name": "Cost Function",
+      "type": "Real"
+    },
+    "extruded max coordinate": {
+      "name": "Extruded Max Coordinate",
+      "type": "Real"
+    },
+    "extruded mesh density": {
+      "name": "Extruded Mesh Density",
+      "type": "Real"
+    },
+    "extruded mesh ratio": {
+      "name": "Extruded Mesh Ratio",
+      "type": "Real"
+    },
+    "extruded min coordinate": {
+      "name": "Extruded Min Coordinate",
+      "type": "Real"
+    },
+    "extruded mesh slices": {
+      "name": "Extruded Mesh Slices",
+      "type": "Logical"
+    },
+    "fs theta": {
+      "name": "FS Theta",
+      "type": "Real"
+    },
+    "frequency": {
+      "name": "Frequency",
+      "type": "Real"
+    },
+    "interpolation local epsilon": {
+      "name": "Interpolation local Epsilon",
+      "type": "Real"
+    },
+    "interpolation global epsilon": {
+      "name": "Interpolation global Epsilon",
+      "type": "Real"
+    },
+    "interpolation numeric epsilon": {
+      "name": "Interpolation numeric Epsilon",
+      "type": "Real"
+    },
+    "levelset bandwidth": {
+      "name": "Levelset Bandwidth",
+      "type": "Real"
+    },
+    "levelset courant number": {
+      "name": "Levelset Courant Number",
+      "type": "Real"
+    },
+    "mesh grading power": {
+      "name": "Mesh Grading Power",
+      "type": "Real"
+    },
+    "moment about 1": {
+      "name": "Moment About 1",
+      "type": "Real"
+    },
+    "moment about 2": {
+      "name": "Moment About 2",
+      "type": "Real"
+    },
+    "moment about 3": {
+      "name": "Moment About 3",
+      "type": "Real"
+    },
+    "newmark beta": {
+      "name": "Newmark Beta",
+      "type": "Real"
+    },
+    "potential difference": {
+      "name": "Potential Difference",
+      "type": "Real"
+    },
+    "real time max": {
+      "name": "Real Time Max",
+      "type": "Real"
+    },
+    "restart time": {
+      "name": "Restart Time",
+      "type": "Real"
+    },
+    "time period": {
+      "name": "Time Period",
+      "type": "Real"
+    },
+    "timestep function": {
+      "name": "Timestep Function",
+      "type": "Real"
+    },
+    "timestep size": {
+      "name": "Timestep Size",
+      "type": "Real"
+    },
+    "timestep sizes": {
+      "name": "Timestep Sizes",
+      "type": "Real"
+    },
+    "timestep ratios": {
+      "name": "timestep ratios",
+      "type": "Real"
+    },
+    "exit condition": {
+      "name": "Exit Condition",
+      "type": "Real"
+    },
+    "coordinate system": {
+      "name": "Coordinate System",
+      "type": "String"
+    },
+    "simulation type": {
+      "name": "Simulation Type",
+      "type": "String"
+    },
+    "timestepping method": {
+      "name": "Timestepping Method",
+      "type": "String"
+    },
+    "restart error continue": {
+      "name": "Restart Error Continue",
+      "type": "Logical"
+    },
+    "calculate mesh pieces": {
+      "name": "Calculate Mesh Pieces",
+      "type": "Logical"
+    },
+    "desired mesh pieces": {
+      "name": "Desired Mesh Pieces",
+      "type": "Integer"
+    }
+  },
+  "solver": {
+    "fixed parameter 1": {
+      "name": "Fixed Parameter 1",
+      "type": "Logical"
+    },
+    "max parameter 1": {
+      "name": "Max Parameter 1",
+      "type": "Real"
+    },
+    "min parameter 1": {
+      "name": "Min Parameter 1",
+      "type": "Real"
+    },
+    "exported variable 1": {
+      "name": "Exported Variable 1",
+      "type": "String"
+    },
+    "target variable 1": {
+      "name": "Target Variable 1",
+      "type": "String"
+    },
+    "coefficient 1": {
+      "name": "Coefficient 1",
+      "type": "String"
+    },
+    "mask name 1": {
+      "name": "Mask Name 1",
+      "type": "String"
+    },
+    "operator 1": {
+      "name": "Operator 1",
+      "type": "String"
+    },
+    "expression 1": {
+      "name": "Expression 1",
+      "type": "Real"
+    },
+    "parallel operator 1": {
+      "name": "Parallel Operator 1",
+      "type": "String"
+    },
+    "parameter 1": {
+      "name": "Parameter 1",
+      "type": "String"
+    },
+    "save variable 1": {
+      "name": "Save Variable 1",
+      "type": "String"
+    },
+    "scalar field 1": {
+      "name": "Scalar Field 1",
+      "type": "String"
+    },
+    "tensor field 1": {
+      "name": "Tensor Field 1",
+      "type": "String"
+    },
+    "variable 1": {
+      "name": "Variable 1",
+      "type": "String"
+    },
+    "field 1": {
+      "name": "field 1",
+      "type": "String"
+    },
+    "vector field 1": {
+      "name": "Vector Field 1",
+      "type": "String"
+    },
+    "constant-viscosity start": {
+      "name": "Constant-Viscosity Start",
+      "type": "Logical"
+    },
+    "adaptive mesh name": {
+      "name": "Adaptive Mesh Name",
+      "type": "File"
+    },
+    "after linsolve": {
+      "name": "After Linsolve",
+      "type": "File"
+    },
+    "before linsolve": {
+      "name": "Before Linsolve",
+      "type": "File"
+    },
+    "best file": {
+      "name": "Best File",
+      "type": "File"
+    },
+    "filename": {
+      "name": "Filename",
+      "type": "File"
+    },
+    "history file": {
+      "name": "History File",
+      "type": "File"
+    },
+    "mg mesh name": {
+      "name": "MG Mesh Name",
+      "type": "File"
+    },
+    "mesh name": {
+      "name": "Mesh Name",
+      "type": "File"
+    },
+    "mesh": {
+      "name": "Mesh",
+      "type": "File"
+    },
+    "output directory": {
+      "name": "Output Directory",
+      "type": "File"
+    },
+    "output file name": {
+      "name": "Output File Name",
+      "type": "File"
+    },
+    "procedure": {
+      "name": "Procedure",
+      "type": "File"
+    },
+    "shear stress output file": {
+      "name": "Shear Stress Output File",
+      "type": "File"
+    },
+    "reload solution file": {
+      "name": "Reload Solution File",
+      "type": "File"
+    },
+    "active coordinate": {
+      "name": "Active Coordinate",
+      "type": "Integer"
+    },
+    "active eigenmodes": {
+      "name": "Active EigenModes",
+      "type": "Integer"
+    },
+    "adaptive max depth": {
+      "name": "Adaptive Max Depth",
+      "type": "Integer"
+    },
+    "adaptive pre smoothing": {
+      "name": "Adaptive Pre Smoothing",
+      "type": "Integer"
+    },
+    "assembly solvers": {
+      "name": "Assembly Solvers",
+      "type": "Integer"
+    },
+    "bdf order": {
+      "name": "BDF Order",
+      "type": "Integer"
+    },
+    "bicgstabl polynomial degree": {
+      "name": "BicgStabl Polynomial Degree",
+      "type": "Integer"
+    },
+    "body force index": {
+      "name": "Body Force Index",
+      "type": "Integer"
+    },
+    "boomeramg coarsen type": {
+      "name": "BoomerAMG Coarsen Type",
+      "type": "Integer"
+    },
+    "boomeramg cycle type": {
+      "name": "BoomerAMG Cycle Type",
+      "type": "Integer"
+    },
+    "boomeramg interpolation": {
+      "name": "BoomerAMG Interpolation",
+      "type": "Integer"
+    },
+    "boomeramg max levels": {
+      "name": "BoomerAMG Max Levels",
+      "type": "Integer"
+    },
+    "boomeramg num sweeps": {
+      "name": "BoomerAMG Num Sweeps",
+      "type": "Integer"
+    },
+    "boomeramg relax type": {
+      "name": "BoomerAMG Relax Type",
+      "type": "Integer"
+    },
+    "boomeramg smooth type": {
+      "name": "BoomerAMG Smooth Type",
+      "type": "Integer"
+    },
+    "capacitance bodies": {
+      "name": "Capacitance Bodies",
+      "type": "Integer"
+    },
+    "eigen mode": {
+      "name": "Eigen Mode",
+      "type": "Integer"
+    },
+    "eigen system lanczos vectors": {
+      "name": "Eigen System Lanczos Vectors",
+      "type": "Integer"
+    },
+    "eigen system max iterations": {
+      "name": "Eigen System Max Iterations",
+      "type": "Integer"
+    },
+    "eigen system values": {
+      "name": "Eigen System Values",
+      "type": "Integer"
+    },
+    "exec interval": {
+      "name": "Exec Interval",
+      "type": "Integer"
+    },
+    "exec intervals": {
+      "name": "Exec Intervals",
+      "type": "Integer"
+    },
+    "extend elastic layers": {
+      "name": "Extend Elastic Layers",
+      "type": "Integer"
+    },
+    "extract interval": {
+      "name": "Extract Interval",
+      "type": "Integer"
+    },
+    "fileindex offset": {
+      "name": "Fileindex Offset",
+      "type": "Integer"
+    },
+    "fluid solver index": {
+      "name": "Fluid Solver Index",
+      "type": "Integer"
+    },
+    "free surface after iterations": {
+      "name": "Free Surface After Iterations",
+      "type": "Integer"
+    },
+    "gebhardt factors fixed after iterations": {
+      "name": "Gebhardt Factors Fixed After Iterations",
+      "type": "Integer"
+    },
+    "gebhart factors fixed after iterations": {
+      "name": "Gebhart Factors Fixed After Iterations",
+      "type": "Integer"
+    },
+    "gebhardt factors fixed after nonlinear iterations": {
+      "name": "Gebhardt Factors Fixed After Nonlinear Iterations",
+      "type": "Integer"
+    },
+    "gebhart factors fixed after nonlinear iterations": {
+      "name": "Gebhart Factors Fixed After Nonlinear Iterations",
+      "type": "Integer"
+    },
+    "idrs parameter": {
+      "name": "IDRS Parameter",
+      "type": "Integer"
+    },
+    "ilu order for schur complement": {
+      "name": "ILU Order for Schur Complement",
+      "type": "Integer"
+    },
+    "ilu order for velocities": {
+      "name": "ILU Order for Velocities",
+      "type": "Integer"
+    },
+    "intersect coordinate": {
+      "name": "Intersect Coordinate",
+      "type": "Integer"
+    },
+    "lagrange element degree": {
+      "name": "Lagrange Element Degree",
+      "type": "Integer"
+    },
+    "linear system gcr restart": {
+      "name": "Linear System GCR Restart",
+      "type": "Integer"
+    },
+    "linear system gmres restart": {
+      "name": "Linear System GMRES Restart",
+      "type": "Integer"
+    },
+    "linear system max iterations": {
+      "name": "Linear System Max Iterations",
+      "type": "Integer"
+    },
+    "linear system min iterations": {
+      "name": "Linear System Min Iterations",
+      "type": "Integer"
+    },
+    "linear system precondition recompute": {
+      "name": "Linear System Precondition Recompute",
+      "type": "Integer"
+    },
+    "linear system residual output": {
+      "name": "Linear System Residual Output",
+      "type": "Integer"
+    },
+    "mg boundary priority": {
+      "name": "MG Boundary Priority",
+      "type": "Integer"
+    },
+    "mg cluster divisions": {
+      "name": "MG Cluster Divisions",
+      "type": "Integer"
+    },
+    "mg cluster size": {
+      "name": "MG Cluster Size",
+      "type": "Integer"
+    },
+    "mg coarse nodes save limit": {
+      "name": "MG Coarse Nodes Save Limit",
+      "type": "Integer"
+    },
+    "mg coarsening mode": {
+      "name": "MG Coarsening Mode",
+      "type": "Integer"
+    },
+    "mg compatible relax rounds": {
+      "name": "MG Compatible Relax Rounds",
+      "type": "Integer"
+    },
+    "mg determining component": {
+      "name": "MG Determining Component",
+      "type": "Integer"
+    },
+    "mg direct interpolate limit": {
+      "name": "MG Direct Interpolate Limit",
+      "type": "Integer"
+    },
+    "mg info level": {
+      "name": "MG Info Level",
+      "type": "Integer"
+    },
+    "mg info node": {
+      "name": "MG Info Node",
+      "type": "Integer"
+    },
+    "mg level max iterations": {
+      "name": "MG Level Max Iterations",
+      "type": "Integer"
+    },
+    "mg levels": {
+      "name": "MG Levels",
+      "type": "Integer"
+    },
+    "mg lowest linear solver limit": {
+      "name": "MG Lowest Linear Solver Limit",
+      "type": "Integer"
+    },
+    "mg max iterations": {
+      "name": "MG Max Iterations",
+      "type": "Integer"
+    },
+    "mg post smoothing iterations": {
+      "name": "MG Post Smoothing Iterations",
+      "type": "Integer"
+    },
+    "mg pre smoothing iterations": {
+      "name": "MG Pre Smoothing Iterations",
+      "type": "Integer"
+    },
+    "mg strong connection maximum": {
+      "name": "MG Strong Connection Maximum",
+      "type": "Integer"
+    },
+    "mg strong connection minimum": {
+      "name": "MG Strong Connection Minimum",
+      "type": "Integer"
+    },
+    "mg sweeps": {
+      "name": "MG Sweeps",
+      "type": "Integer"
+    },
+    "material index": {
+      "name": "Material Index",
+      "type": "Integer"
+    },
+    "max gcr restarts": {
+      "name": "Max GCR Restarts",
+      "type": "Integer"
+    },
+    "max inner gcr iterations": {
+      "name": "Max Inner GCR Iterations",
+      "type": "Integer"
+    },
+    "max outer gcr cycles": {
+      "name": "Max Outer GCR Cycles",
+      "type": "Integer"
+    },
+    "max outer iterations": {
+      "name": "Max Outer Iterations",
+      "type": "Integer"
+    },
+    "mesh rotation axis order": {
+      "name": "Mesh Rotation Axis Order",
+      "type": "Integer"
+    },
+    "multigrid levels": {
+      "name": "Multigrid Levels",
+      "type": "Integer"
+    },
+    "nofnuclei": {
+      "name": "NOFnuclei",
+      "type": "Integer"
+    },
+    "nonlinear pre solvers": {
+      "name": "Nonlinear Pre Solvers",
+      "type": "Integer"
+    },
+    "nonlinear post solvers": {
+      "name": "Nonlinear Post Solvers",
+      "type": "Integer"
+    },
+    "nonlinear system linesearch iterations": {
+      "name": "Nonlinear System Linesearch Iterations",
+      "type": "Integer"
+    },
+    "nonlinear system max iterations": {
+      "name": "Nonlinear System Max Iterations",
+      "type": "Integer"
+    },
+    "nonlinear system max stepsize tests": {
+      "name": "Nonlinear System Max Stepsize Tests",
+      "type": "Integer"
+    },
+    "nonlinear system min iterations": {
+      "name": "Nonlinear System Min Iterations",
+      "type": "Integer"
+    },
+    "nonlinear system newton after iterations": {
+      "name": "Nonlinear System Newton After Iterations",
+      "type": "Integer"
+    },
+    "nonlinear system norm components": {
+      "name": "Nonlinear System Norm Components",
+      "type": "Integer"
+    },
+    "nonlinear system norm degree": {
+      "name": "Nonlinear System Norm Degree",
+      "type": "Integer"
+    },
+    "nonlinear system norm dofs": {
+      "name": "Nonlinear System Norm Dofs",
+      "type": "Integer"
+    },
+    "number of eigenmodes": {
+      "name": "Number Of EigenModes",
+      "type": "Integer"
+    },
+    "number of particles": {
+      "name": "Number Of Particles",
+      "type": "Integer"
+    },
+    "number of eigenmodes included": {
+      "name": "Number of Eigenmodes Included",
+      "type": "Integer"
+    },
+    "parasails maxlevel": {
+      "name": "Parasails MaxLevel",
+      "type": "Integer"
+    },
+    "parasails symmetry": {
+      "name": "Parasails Symmetry",
+      "type": "Integer"
+    },
+    "plate solver index": {
+      "name": "Plate Solver Index",
+      "type": "Integer"
+    },
+    "population size": {
+      "name": "Population Size",
+      "type": "Integer"
+    },
+    "post solvers": {
+      "name": "Post Solvers",
+      "type": "Integer"
+    },
+    "potential solver id": {
+      "name": "Potential Solver ID",
+      "type": "Integer"
+    },
+    "pre solvers": {
+      "name": "Pre Solvers",
+      "type": "Integer"
+    },
+    "reinitialize interval": {
+      "name": "Reinitialize Interval",
+      "type": "Integer"
+    },
+    "relative integration order": {
+      "name": "Relative Integration Order",
+      "type": "Integer"
+    },
+    "reload range maximum": {
+      "name": "Reload Range Maximum",
+      "type": "Integer"
+    },
+    "reload range minimum": {
+      "name": "Reload Range Minimum",
+      "type": "Integer"
+    },
+    "reload reading intervals": {
+      "name": "Reload Reading Intervals",
+      "type": "Integer"
+    },
+    "reload starting position": {
+      "name": "Reload Starting Position",
+      "type": "Integer"
+    },
+    "runge-kutta order": {
+      "name": "Runge-Kutta Order",
+      "type": "Integer"
+    },
+    "save points": {
+      "name": "Save Points",
+      "type": "Integer"
+    },
+    "scan points": {
+      "name": "Scan Points",
+      "type": "Integer"
+    },
+    "shell solver index": {
+      "name": "Shell Solver Index",
+      "type": "Integer"
+    },
+    "show norm index": {
+      "name": "Show Norm Index",
+      "type": "Integer"
+    },
+    "slave solvers": {
+      "name": "Slave Solvers",
+      "type": "Integer"
+    },
+    "solid solver index": {
+      "name": "Solid Solver Index",
+      "type": "Integer"
+    },
+    "start grpulay after iterations": {
+      "name": "Start GRPulay after iterations",
+      "type": "Integer"
+    },
+    "stream function first node": {
+      "name": "Stream Function First Node",
+      "type": "Integer"
+    },
+    "structure solver index": {
+      "name": "Structure Solver Index",
+      "type": "Integer"
+    },
+    "time derivative order": {
+      "name": "Time Derivative Order",
+      "type": "Integer"
+    },
+    "time order": {
+      "name": "Time Order",
+      "type": "Integer"
+    },
+    "variable dofs": {
+      "name": "Variable DOFs",
+      "type": "Integer"
+    },
+    "view factors fixed after iterations": {
+      "name": "View Factors Fixed After Iterations",
+      "type": "Integer"
+    },
+    "viewfactor divide": {
+      "name": "Viewfactor divide",
+      "type": "Integer"
+    },
+    "viewfactor number of rays": {
+      "name": "Viewfactor number of rays",
+      "type": "Integer"
+    },
+    "adaptive coarsening": {
+      "name": "Adaptive Coarsening",
+      "type": "Logical"
+    },
+    "adaptive mesh refinement": {
+      "name": "Adaptive Mesh Refinement",
+      "type": "Logical"
+    },
+    "adaptive remesh": {
+      "name": "Adaptive Remesh",
+      "type": "Logical"
+    },
+    "adaptive save mesh": {
+      "name": "Adaptive Save Mesh",
+      "type": "Logical"
+    },
+    "additional info": {
+      "name": "Additional Info",
+      "type": "Logical"
+    },
+    "after all": {
+      "name": "After All",
+      "type": "Logical"
+    },
+    "after simulation": {
+      "name": "After Simulation",
+      "type": "Logical"
+    },
+    "after timestep": {
+      "name": "After Timestep",
+      "type": "Logical"
+    },
+    "all displaced boundaries": {
+      "name": "All Displaced Boundaries",
+      "type": "Logical"
+    },
+    "apply dirichlet": {
+      "name": "Apply Dirichlet",
+      "type": "Logical"
+    },
+    "apply limiter": {
+      "name": "Apply Limiter",
+      "type": "Logical"
+    },
+    "save limiter": {
+      "name": "Save Limiter",
+      "type": "Logical"
+    },
+    "apply limiter conservative add after iterations": {
+      "name": "Apply Limiter Conservative Add After Iterations",
+      "type": "Integer"
+    },
+    "apply limiter conservative remove after iterations": {
+      "name": "Apply Limiter Conservative Remove After Iterations",
+      "type": "Integer"
+    },
+    "apply mortar bcs": {
+      "name": "Apply Mortar BCs",
+      "type": "Logical"
+    },
+    "apply conforming bcs": {
+      "name": "Apply Conforming BCs",
+      "type": "Logical"
+    },
+    "artificial compressibility scale": {
+      "name": "Artificial Compressibility Scale",
+      "type": "Logical"
+    },
+    "ascii output": {
+      "name": "Ascii Output",
+      "type": "Logical"
+    },
+    "assembly solver": {
+      "name": "Assembly Solver",
+      "type": "Logical"
+    },
+    "average within materials": {
+      "name": "Average Within Materials",
+      "type": "Logical"
+    },
+    "back rotate n-t solution": {
+      "name": "Back Rotate N-T Solution",
+      "type": "Logical"
+    },
+    "before all": {
+      "name": "Before All",
+      "type": "Logical"
+    },
+    "before simulation": {
+      "name": "Before Simulation",
+      "type": "Logical"
+    },
+    "before timestep": {
+      "name": "Before Timestep",
+      "type": "Logical"
+    },
+    "binary output": {
+      "name": "Binary Output",
+      "type": "Logical"
+    },
+    "block a-v system": {
+      "name": "Block A-V System",
+      "type": "Logical"
+    },
+    "block diagonal a": {
+      "name": "Block Diagonal A",
+      "type": "Logical"
+    },
+    "block gauss-seidel": {
+      "name": "Block Gauss-Seidel",
+      "type": "Logical"
+    },
+    "block matrix reuse": {
+      "name": "Block Matrix ReUse",
+      "type": "Logical"
+    },
+    "block monolithic": {
+      "name": "Block Monolithic",
+      "type": "Logical"
+    },
+    "block nested system": {
+      "name": "Block Nested System",
+      "type": "Logical"
+    },
+    "block preconditioner": {
+      "name": "Block Preconditioner",
+      "type": "Logical"
+    },
+    "block preconditioning": {
+      "name": "Block Preconditioning",
+      "type": "Logical"
+    },
+    "block solver": {
+      "name": "Block Solver",
+      "type": "Logical"
+    },
+    "bubbles in global system": {
+      "name": "Bubbles in Global System",
+      "type": "Logical"
+    },
+    "bubbles": {
+      "name": "Bubbles",
+      "type": "Logical"
+    },
+    "calculate boundary weights": {
+      "name": "Calculate Boundary Weights",
+      "type": "Logical"
+    },
+    "calculate capacitance matrix": {
+      "name": "Calculate Capacitance Matrix",
+      "type": "Logical"
+    },
+    "calculate current density": {
+      "name": "Calculate Current Density",
+      "type": "Logical"
+    },
+    "calculate electric charge": {
+      "name": "Calculate Electric Charge",
+      "type": "Logical"
+    },
+    "calculate electric conductivity": {
+      "name": "Calculate Electric Conductivity",
+      "type": "Logical"
+    },
+    "calculate electric energy": {
+      "name": "Calculate Electric Energy",
+      "type": "Logical"
+    },
+    "calculate electric field": {
+      "name": "Calculate Electric Field",
+      "type": "Logical"
+    },
+    "calculate electric flux": {
+      "name": "Calculate Electric Flux",
+      "type": "Logical"
+    },
+    "calculate flux magnitude": {
+      "name": "Calculate Flux Magnitude",
+      "type": "Logical"
+    },
+    "calculate flux": {
+      "name": "Calculate Flux",
+      "type": "Logical"
+    },
+    "calculate force": {
+      "name": "Calculate Force",
+      "type": "Logical"
+    },
+    "calculate grad magnitude": {
+      "name": "Calculate Grad Magnitude",
+      "type": "Logical"
+    },
+    "calculate grad": {
+      "name": "Calculate Grad",
+      "type": "Logical"
+    },
+    "calculate heating": {
+      "name": "Calculate Heating",
+      "type": "Logical"
+    },
+    "calculate joule heating": {
+      "name": "Calculate Joule Heating",
+      "type": "Logical"
+    },
+    "calculate jxb": {
+      "name": "Calculate JxB",
+      "type": "Logical"
+    },
+    "calculate nodal heating": {
+      "name": "Calculate Nodal Heating",
+      "type": "Logical"
+    },
+    "calculate maxwell stress": {
+      "name": "Calculate Maxwell Stress",
+      "type": "Logical"
+    },
+    "calculate magnetic field strength": {
+      "name": "Calculate Magnetic Field Strength",
+      "type": "Logical"
+    },
+    "calculate magnetic flux density": {
+      "name": "Calculate Magnetic Flux Density",
+      "type": "Logical"
+    },
+    "calculate magnetic flux": {
+      "name": "Calculate Magnetic Flux",
+      "type": "Logical"
+    },
+    "calculate magnetic vector potential": {
+      "name": "Calculate Magnetic Vector Potential",
+      "type": "Logical"
+    },
+    "calculate moment": {
+      "name": "Calculate Moment",
+      "type": "Logical"
+    },
+    "calculate nodal forces": {
+      "name": "Calculate Nodal Forces",
+      "type": "Logical"
+    },
+    "calculate pangle": {
+      "name": "Calculate PAngle",
+      "type": "Logical"
+    },
+    "calculate principal": {
+      "name": "Calculate Principal",
+      "type": "Logical"
+    },
+    "calculate strains": {
+      "name": "Calculate Strains",
+      "type": "Logical"
+    },
+    "calculate stresses": {
+      "name": "Calculate Stresses",
+      "type": "Logical"
+    },
+    "calculate surface charge": {
+      "name": "Calculate Surface Charge",
+      "type": "Logical"
+    },
+    "calculate viscous force": {
+      "name": "Calculate Viscous Force",
+      "type": "Logical"
+    },
+    "calculate volume current": {
+      "name": "Calculate Volume Current",
+      "type": "Logical"
+    },
+    "calculate weights": {
+      "name": "Calculate Weights",
+      "type": "Logical"
+    },
+    "cartesian formulation": {
+      "name": "Cartesian Formulation",
+      "type": "Logical"
+    },
+    "cavitation": {
+      "name": "Cavitation",
+      "type": "Logical"
+    },
+    "complex eigen vectors": {
+      "name": "Complex Eigen Vectors",
+      "type": "Logical"
+    },
+    "componentwise preconditioning": {
+      "name": "Componentwise Preconditioning",
+      "type": "Logical"
+    },
+    "compute curvatures": {
+      "name": "Compute Curvatures",
+      "type": "Logical"
+    },
+    "compute mesh velocity": {
+      "name": "Compute Mesh Velocity",
+      "type": "Logical"
+    },
+    "compute strains": {
+      "name": "Compute Strains",
+      "type": "Logical"
+    },
+    "compute view factors": {
+      "name": "Compute View Factors",
+      "type": "Logical"
+    },
+    "conserve volume": {
+      "name": "Conserve Volume",
+      "type": "Logical"
+    },
+    "consider compressibility": {
+      "name": "Consider Compressibility",
+      "type": "Logical"
+    },
+    "consider viscous force": {
+      "name": "Consider Viscous Force",
+      "type": "Logical"
+    },
+    "constant bulk matrix": {
+      "name": "Constant Bulk Matrix",
+      "type": "Logical"
+    },
+    "constant bulk system": {
+      "name": "Constant Bulk System",
+      "type": "Logical"
+    },
+    "constant system": {
+      "name": "Constant System",
+      "type": "Logical"
+    },
+    "constant weights": {
+      "name": "Constant Weights",
+      "type": "Logical"
+    },
+    "contact": {
+      "name": "Contact",
+      "type": "Logical"
+    },
+    "continuous reading": {
+      "name": "Continuous Reading",
+      "type": "Logical"
+    },
+    "convect": {
+      "name": "Convect",
+      "type": "Logical"
+    },
+    "convective": {
+      "name": "Convective",
+      "type": "Logical"
+    },
+    "coupled solver": {
+      "name": "Coupled Solver",
+      "type": "Logical"
+    },
+    "cumulative displacements": {
+      "name": "Cumulative Displacements",
+      "type": "Logical"
+    },
+    "darwin model": {
+      "name": "Darwin Model",
+      "type": "Logical"
+    },
+    "discontinuous galerkin": {
+      "name": "Discontinuous Galerkin",
+      "type": "Logical"
+    },
+    "displace mesh": {
+      "name": "Displace Mesh",
+      "type": "Logical"
+    },
+    "displaced shape": {
+      "name": "Displaced Shape",
+      "type": "Logical"
+    },
+    "div discretization": {
+      "name": "Div Discretization",
+      "type": "Logical"
+    },
+    "drilling dofs": {
+      "name": "Drilling DOFs",
+      "type": "Logical"
+    },
+    "dx format": {
+      "name": "Dx Format",
+      "type": "Logical"
+    },
+    "edge basis": {
+      "name": "Edge Basis",
+      "type": "Logical"
+    },
+    "eigen analysis": {
+      "name": "Eigen Analysis",
+      "type": "Logical"
+    },
+    "eigen system complex": {
+      "name": "Eigen System Complex",
+      "type": "Logical"
+    },
+    "eigen system compute residuals": {
+      "name": "Eigen System Compute Residuals",
+      "type": "Logical"
+    },
+    "eigen system damped": {
+      "name": "Eigen System Damped",
+      "type": "Logical"
+    },
+    "eigen system use identity": {
+      "name": "Eigen System Use Identity",
+      "type": "Logical"
+    },
+    "elasticity solver linear": {
+      "name": "Elasticity Solver Linear",
+      "type": "Logical"
+    },
+    "eliminate negative": {
+      "name": "Eliminate Negative",
+      "type": "Logical"
+    },
+    "elmerpost format": {
+      "name": "ElmerPost Format",
+      "type": "Logical"
+    },
+    "enforce parallel format": {
+      "name": "Enforce Parallel Format",
+      "type": "Logical"
+    },
+    "enforce positive magnitude": {
+      "name": "Enforce Positive Magnitude",
+      "type": "Logical"
+    },
+    "exact coordinates": {
+      "name": "Exact Coordinates",
+      "type": "Logical"
+    },
+    "export lagrange multiplier": {
+      "name": "Export Lagrange Multiplier",
+      "type": "Logical"
+    },
+    "extend elastic region": {
+      "name": "Extend Elastic Region",
+      "type": "Logical"
+    },
+    "file append": {
+      "name": "File Append",
+      "type": "Logical"
+    },
+    "filename numbering": {
+      "name": "Filename Numbering",
+      "type": "Logical"
+    },
+    "fix displacement": {
+      "name": "Fix Displacement",
+      "type": "Logical"
+    },
+    "fix input current density": {
+      "name": "Fix Input Current Density",
+      "type": "Logical"
+    },
+    "gebhardt factors solver full": {
+      "name": "Gebhardt Factors Solver Full",
+      "type": "Logical"
+    },
+    "gebhart factors solver full": {
+      "name": "Gebhart Factors Solver Full",
+      "type": "Logical"
+    },
+    "gebhardt factors solver iterative": {
+      "name": "Gebhardt Factors Solver Iterative",
+      "type": "Logical"
+    },
+    "gebhart factors solver iterative": {
+      "name": "Gebhart Factors Solver Iterative",
+      "type": "Logical"
+    },
+    "geometric stiffness": {
+      "name": "Geometric Stiffness",
+      "type": "Logical"
+    },
+    "gid format": {
+      "name": "Gid Format",
+      "type": "Logical"
+    },
+    "gradp discretization": {
+      "name": "Gradp Discretization",
+      "type": "Logical"
+    },
+    "harmonic analysis": {
+      "name": "Harmonic Analysis",
+      "type": "Logical"
+    },
+    "harmonic simulation": {
+      "name": "Harmonic Simulation",
+      "type": "Logical"
+    },
+    "hole correction": {
+      "name": "Hole Correction",
+      "type": "Logical"
+    },
+    "impose body force current": {
+      "name": "Impose Body Force Current",
+      "type": "Logical"
+    },
+    "incompressible": {
+      "name": "Incompressible",
+      "type": "Logical"
+    },
+    "initialize": {
+      "name": "Initialize",
+      "type": "Logical"
+    },
+    "initialize state variables": {
+      "name": "Initialize State Variables",
+      "type": "Logical"
+    },
+    "internal move boundary": {
+      "name": "Internal Move Boundary",
+      "type": "Logical"
+    },
+    "intersect edge": {
+      "name": "Intersect Edge",
+      "type": "Logical"
+    },
+    "laplace discretization": {
+      "name": "Laplace Discretization",
+      "type": "Logical"
+    },
+    "large deflection": {
+      "name": "Large Deflection",
+      "type": "Logical"
+    },
+    "levelset convect": {
+      "name": "Levelset Convect",
+      "type": "Logical"
+    },
+    "limiter load sign negative": {
+      "name": "Limiter Load Sign Negative",
+      "type": "Logical"
+    },
+    "linear system abort not converged": {
+      "name": "Linear System Abort Not Converged",
+      "type": "Logical"
+    },
+    "linear system adaptive tolerance": {
+      "name": "Linear System Adaptive Tolerance",
+      "type": "Logical"
+    },
+    "linear system left preconditioning": {
+      "name": "Linear System Left Preconditioning",
+      "type": "Logical"
+    },
+    "linear system pseudo complex": {
+      "name": "Linear System Pseudo Complex",
+      "type": "Logical"
+    },
+    "linear system refactorize": {
+      "name": "Linear System Refactorize",
+      "type": "Logical"
+    },
+    "linear system row equilibration": {
+      "name": "Linear System Row Equilibration",
+      "type": "Logical"
+    },
+    "linear system scaling": {
+      "name": "Linear System Scaling",
+      "type": "Logical"
+    },
+    "linear system symmetric ilu": {
+      "name": "Linear System Symmetric ILU",
+      "type": "Logical"
+    },
+    "linear system symmetric": {
+      "name": "Linear System Symmetric",
+      "type": "Logical"
+    },
+    "linear system use hypre": {
+      "name": "Linear System Use HYPRE",
+      "type": "Logical"
+    },
+    "linear system use trilinos": {
+      "name": "Linear System Use Trilinos",
+      "type": "Logical"
+    },
+    "linear system timing cumulative": {
+      "name": "Linear System timing cumulative",
+      "type": "Logical"
+    },
+    "linear system timing": {
+      "name": "Linear System timing",
+      "type": "Logical"
+    },
+    "linear system componentwise backward error": {
+      "name": "Linear System Componentwise Backward Error",
+      "type": "Logical"
+    },
+    "linear system normwise backward error": {
+      "name": "Linear System Normwise Backward Error",
+      "type": "Logical"
+    },
+    "lorenz condition": {
+      "name": "Lorenz Condition",
+      "type": "Logical"
+    },
+    "lumped mass matrix": {
+      "name": "Lumped Mass Matrix",
+      "type": "Logical"
+    },
+    "mass-proportional damping": {
+      "name": "Mass-proportional Damping",
+      "type": "Logical"
+    },
+    "matrix topology fixed": {
+      "name": "Matrix Topology Fixed",
+      "type": "Logical"
+    },
+    "maxwell material": {
+      "name": "Maxwell Material",
+      "type": "Logical"
+    },
+    "mesh reparametrization": {
+      "name": "Mesh Reparametrization",
+      "type": "Logical"
+    },
+    "mg algebraic": {
+      "name": "MG Algebraic",
+      "type": "Logical"
+    },
+    "mg coarse nodes save": {
+      "name": "MG Coarse Nodes Save",
+      "type": "Logical"
+    },
+    "mg compatible relax merit only": {
+      "name": "MG Compatible Relax Merit Only",
+      "type": "Logical"
+    },
+    "mg compatible relax merit": {
+      "name": "MG Compatible Relax Merit",
+      "type": "Logical"
+    },
+    "mg complex matrix": {
+      "name": "MG Complex Matrix",
+      "type": "Logical"
+    },
+    "mg direct interpolate": {
+      "name": "MG Direct Interpolate",
+      "type": "Logical"
+    },
+    "mg eliminate dirichlet": {
+      "name": "MG Eliminate Dirichlet",
+      "type": "Logical"
+    },
+    "mg equal split": {
+      "name": "MG Equal Split",
+      "type": "Logical"
+    },
+    "mg identical component projectors": {
+      "name": "MG Identical Component Projectors",
+      "type": "Logical"
+    },
+    "mg identical component sets": {
+      "name": "MG Identical Component Sets",
+      "type": "Logical"
+    },
+    "mg lowest linear solver iterative": {
+      "name": "MG Lowest Linear Solver Iterative",
+      "type": "Logical"
+    },
+    "mg lowest linear solver unsolve": {
+      "name": "MG Lowest Linear Solver Unsolve",
+      "type": "Logical"
+    },
+    "mg positive connection allow": {
+      "name": "MG Positive Connection Allow",
+      "type": "Logical"
+    },
+    "mg positive connection eliminate": {
+      "name": "MG Positive Connection Eliminate",
+      "type": "Logical"
+    },
+    "mg project matrix": {
+      "name": "MG Project Matrix",
+      "type": "Logical"
+    },
+    "mg projection lumping": {
+      "name": "MG Projection Lumping",
+      "type": "Logical"
+    },
+    "mg pseudo geometric": {
+      "name": "MG Pseudo Geometric",
+      "type": "Logical"
+    },
+    "mg recompute projector": {
+      "name": "MG Recompute Projector",
+      "type": "Logical"
+    },
+    "mixed formulation": {
+      "name": "Mixed Formulation",
+      "type": "Logical"
+    },
+    "model lumping": {
+      "name": "Model Lumping",
+      "type": "Logical"
+    },
+    "moving mesh": {
+      "name": "Moving Mesh",
+      "type": "Logical"
+    },
+    "neo-hookean material": {
+      "name": "Neo-Hookean Material",
+      "type": "Logical"
+    },
+    "no fileindex": {
+      "name": "No Fileindex",
+      "type": "Logical"
+    },
+    "no precondition recompute": {
+      "name": "No Precondition Recompute",
+      "type": "Logical"
+    },
+    "nonlinear bending strains": {
+      "name": "Nonlinear Bending Strains",
+      "type": "Logical"
+    },
+    "nonlinear system abort not converged": {
+      "name": "Nonlinear System Abort Not Converged",
+      "type": "Logical"
+    },
+    "nonlinear system linesearch": {
+      "name": "Nonlinear System Linesearch",
+      "type": "Logical"
+    },
+    "nonlinear system reset newton": {
+      "name": "Nonlinear System Reset Newton",
+      "type": "Logical"
+    },
+    "nonlinear timestepping": {
+      "name": "Nonlinear Timestepping",
+      "type": "Logical"
+    },
+    "nonlinear update exported variables": {
+      "name": "Nonlinear Update Exported Variables",
+      "type": "Logical"
+    },
+    "normal flux": {
+      "name": "Normal Flux",
+      "type": "Logical"
+    },
+    "optimize bandwidth": {
+      "name": "Optimize Bandwidth",
+      "type": "Logical"
+    },
+    "optimize matrix structure": {
+      "name": "Optimize Matrix Structure",
+      "type": "Logical"
+    },
+    "output node types": {
+      "name": "Output Node Types",
+      "type": "Logical"
+    },
+    "output state variables": {
+      "name": "Output State Variables",
+      "type": "Logical"
+    },
+    "p2-p1 approximation": {
+      "name": "P2-P1 Approximation",
+      "type": "Logical"
+    },
+    "partition numbering": {
+      "name": "Partition Numbering",
+      "type": "Logical"
+    },
+    "parallel reduce": {
+      "name": "Parallel Reduce",
+      "type": "Logical"
+    },
+    "particle accurate always": {
+      "name": "Particle Accurate Always",
+      "type": "Logical"
+    },
+    "particle locate robust": {
+      "name": "Particle Locate Robust",
+      "type": "Logical"
+    },
+    "perform mapping": {
+      "name": "Perform Mapping",
+      "type": "Logical"
+    },
+    "perturbations": {
+      "name": "Perturbations",
+      "type": "Logical"
+    },
+    "plane stress": {
+      "name": "Plane Stress",
+      "type": "Logical"
+    },
+    "plate solver": {
+      "name": "Plate Solver",
+      "type": "Logical"
+    },
+    "quadratic approximation": {
+      "name": "Quadratic Approximation",
+      "type": "Logical"
+    },
+    "radiation solver": {
+      "name": "Radiation Solver",
+      "type": "Logical"
+    },
+    "rarefaction": {
+      "name": "Rarefaction",
+      "type": "Logical"
+    },
+    "reinitialize passive": {
+      "name": "Reinitialize Passive",
+      "type": "Logical"
+    },
+    "reverse ordering": {
+      "name": "Reverse Ordering",
+      "type": "Logical"
+    },
+    "rotate dofs": {
+      "name": "Rotate DOFs",
+      "type": "Logical"
+    },
+    "saturated initial guess": {
+      "name": "Saturated Initial Guess",
+      "type": "Logical"
+    },
+    "save axis 1": {
+      "name": "Save Axis 1",
+      "type": "Logical"
+    },
+    "save axis 2": {
+      "name": "Save Axis 2",
+      "type": "Logical"
+    },
+    "save axis 3": {
+      "name": "Save Axis 3",
+      "type": "Logical"
+    },
+    "save axis": {
+      "name": "Save Axis",
+      "type": "Logical"
+    },
+    "save boundaries only": {
+      "name": "Save Boundaries Only",
+      "type": "Logical"
+    },
+    "save bulk only": {
+      "name": "Save Bulk Only",
+      "type": "Logical"
+    },
+    "save elemental fields": {
+      "name": "Save Elemental Fields",
+      "type": "Logical"
+    },
+    "save nodal fields": {
+      "name": "Save Nodal Fields",
+      "type": "Logical"
+    },
+    "save halo elements only": {
+      "name": "Save Halo Elements Only",
+      "type": "Logical"
+    },
+    "shell solver": {
+      "name": "Shell Solver",
+      "type": "Logical"
+    },
+    "skip halo elements": {
+      "name": "Skip Halo Elements",
+      "type": "Logical"
+    },
+    "save bulk system": {
+      "name": "Save Bulk System",
+      "type": "Logical"
+    },
+    "save displacements": {
+      "name": "Save Displacements",
+      "type": "Logical"
+    },
+    "save eigen frequencies": {
+      "name": "Save Eigen Frequencies",
+      "type": "Logical"
+    },
+    "save eigenfrequencies": {
+      "name": "Save EigenFrequencies",
+      "type": "Logical"
+    },
+    "save eigen values": {
+      "name": "Save Eigen values",
+      "type": "Logical"
+    },
+    "save eigenvalues": {
+      "name": "Save Eigenvalues",
+      "type": "Logical"
+    },
+    "save flux": {
+      "name": "Save Flux",
+      "type": "Logical"
+    },
+    "save gebhardt factors": {
+      "name": "Save Gebhardt Factors",
+      "type": "Logical"
+    },
+    "save gebhart factors": {
+      "name": "Save Gebhart Factors",
+      "type": "Logical"
+    },
+    "save geometry ids": {
+      "name": "Save Geometry Ids",
+      "type": "Logical"
+    },
+    "save heat flux": {
+      "name": "Save Heat Flux",
+      "type": "Logical"
+    },
+    "scan frequency": {
+      "name": "Scan Frequency",
+      "type": "Logical"
+    },
+    "scan position": {
+      "name": "Scan Position",
+      "type": "Logical"
+    },
+    "second kind basis": {
+      "name": "Second Kind Basis",
+      "type": "Logical"
+    },
+    "separate magnetic energy": {
+      "name": "Separate Magnetic Energy",
+      "type": "Logical"
+    },
+    "shear stress output": {
+      "name": "Shear Stress Output",
+      "type": "Logical"
+    },
+    "show norm": {
+      "name": "Show Norm",
+      "type": "Logical"
+    },
+    "side correction": {
+      "name": "Side Correction",
+      "type": "Logical"
+    },
+    "single precision": {
+      "name": "Single Precision",
+      "type": "Logical"
+    },
+    "skip surface reconstruction": {
+      "name": "Skip Surface Reconstruction",
+      "type": "Logical"
+    },
+    "skip volume computing": {
+      "name": "Skip Volume Computing",
+      "type": "Logical"
+    },
+    "skip zero rhs test": {
+      "name": "Skip Zero Rhs Test",
+      "type": "Logical"
+    },
+    "skip halo only partitions": {
+      "name": "Skip Halo Only Partitions",
+      "type": "Logical"
+    },
+    "smart heater average": {
+      "name": "Smart Heater Average",
+      "type": "Logical"
+    },
+    "solver timing cumulative": {
+      "name": "Solver timing cumulative",
+      "type": "Logical"
+    },
+    "solver timing": {
+      "name": "Solver timing",
+      "type": "Logical"
+    },
+    "stability analysis": {
+      "name": "Stability Analysis",
+      "type": "Logical"
+    },
+    "stabilize": {
+      "name": "Stabilize",
+      "type": "Logical"
+    },
+    "static conductivity": {
+      "name": "Static Conductivity",
+      "type": "Logical"
+    },
+    "stokes stream function": {
+      "name": "Stokes Stream Function",
+      "type": "Logical"
+    },
+    "stream function scaling": {
+      "name": "Stream Function Scaling",
+      "type": "Logical"
+    },
+    "stream function shifting": {
+      "name": "Stream Function Shifting",
+      "type": "Logical"
+    },
+    "stress computation": {
+      "name": "Stress Computation",
+      "type": "Logical"
+    },
+    "structure-structure coupling": {
+      "name": "Structure-Structure Coupling",
+      "type": "Logical"
+    },
+    "sum forces": {
+      "name": "Sum Forces",
+      "type": "Logical"
+    },
+    "symmetrisize": {
+      "name": "Symmetrisize",
+      "type": "Logical"
+    },
+    "target variable complex": {
+      "name": "Target Variable Complex",
+      "type": "Logical"
+    },
+    "time derivative active": {
+      "name": "Time Derivative Active",
+      "type": "Logical"
+    },
+    "umf factorize": {
+      "name": "UMF Factorize",
+      "type": "Logical"
+    },
+    "update exported variables": {
+      "name": "Update Exported Variables",
+      "type": "Logical"
+    },
+    "update gebhardt factors": {
+      "name": "Update Gebhardt Factors",
+      "type": "Logical"
+    },
+    "update gebhart factors": {
+      "name": "Update Gebhart Factors",
+      "type": "Logical"
+    },
+    "update transient system": {
+      "name": "Update Transient System",
+      "type": "Logical"
+    },
+    "update view factors": {
+      "name": "Update View Factors",
+      "type": "Logical"
+    },
+    "use absolute norm for convergence": {
+      "name": "Use Absolute Norm For Convergence",
+      "type": "Logical"
+    },
+    "use accumulation": {
+      "name": "Use Accumulation",
+      "type": "Logical"
+    },
+    "use density": {
+      "name": "Use Density",
+      "type": "Logical"
+    },
+    "use gauss law": {
+      "name": "Use Gauss Law",
+      "type": "Logical"
+    },
+    "use global mass matrix": {
+      "name": "Use Global Mass Matrix",
+      "type": "Logical"
+    },
+    "use truncation": {
+      "name": "Use Truncation",
+      "type": "Logical"
+    },
+    "use velocity laplacian": {
+      "name": "Use Velocity Laplacian",
+      "type": "Logical"
+    },
+    "utilize previous solution": {
+      "name": "Utilize Previous Solution",
+      "type": "Logical"
+    },
+    "vtk format": {
+      "name": "VTK Format",
+      "type": "Logical"
+    },
+    "vtu format": {
+      "name": "VTU Format",
+      "type": "Logical"
+    },
+    "variable output": {
+      "name": "Variable Output",
+      "type": "Logical"
+    },
+    "vtu time collection": {
+      "name": "Vtu Time Collection",
+      "type": "Logical"
+    },
+    "adaptive error limit": {
+      "name": "Adaptive Error Limit",
+      "type": "Real"
+    },
+    "adaptive max change": {
+      "name": "Adaptive Max Change",
+      "type": "Real"
+    },
+    "adaptive max h": {
+      "name": "Adaptive Max H",
+      "type": "Real"
+    },
+    "adaptive min h": {
+      "name": "Adaptive Min H",
+      "type": "Real"
+    },
+    "adaptive final refinement": {
+      "name": "Adaptive Final Refinement",
+      "type": "Real"
+    },
+    "angular frequency": {
+      "name": "Angular Frequency",
+      "type": "Real"
+    },
+    "artificial compressibility critical volume": {
+      "name": "Artificial Compressibility Critical Volume",
+      "type": "Real"
+    },
+    "bossak alpha": {
+      "name": "Bossak Alpha",
+      "type": "Real"
+    },
+    "cavitation pressure": {
+      "name": "Cavitation Pressure",
+      "type": "Real"
+    },
+    "conserve volume relaxation": {
+      "name": "Conserve Volume Relaxation",
+      "type": "Real"
+    },
+    "coupled system relaxation factor": {
+      "name": "Coupled System Relaxation Factor",
+      "type": "Real"
+    },
+    "current control": {
+      "name": "Current Control",
+      "type": "Real"
+    },
+    "curvature coefficient": {
+      "name": "Curvature Coefficient",
+      "type": "Real"
+    },
+    "curvature diffusion": {
+      "name": "Curvature Diffusion",
+      "type": "Real"
+    },
+    "desired heating power": {
+      "name": "Desired Heating Power",
+      "type": "Real"
+    },
+    "dot product tolerance": {
+      "name": "Dot Product Tolerance",
+      "type": "Real"
+    },
+    "drilling stabilization parameter": {
+      "name": "Drilling Stabilization Parameter",
+      "type": "Real"
+    },
+    "eigen system convergence tolerance": {
+      "name": "Eigen System Convergence Tolerance",
+      "type": "Real"
+    },
+    "eigen system shift": {
+      "name": "Eigen System Shift",
+      "type": "Real"
+    },
+    "eigen system shifting constant": {
+      "name": "Eigen System Shifting Constant",
+      "type": "Real"
+    },
+    "free surface convergence tolerance": {
+      "name": "Free Surface Convergence Tolerance",
+      "type": "Real"
+    },
+    "free surface max iterations": {
+      "name": "Free Surface Max Iterations",
+      "type": "Real"
+    },
+    "free surface relaxation factor": {
+      "name": "Free Surface Relaxation Factor",
+      "type": "Real"
+    },
+    "frequency": {
+      "name": "Frequency",
+      "type": "Real"
+    },
+    "gebhardt factors fixed tolerance": {
+      "name": "Gebhardt Factors Fixed Tolerance",
+      "type": "Real"
+    },
+    "gebhart factors fixed tolerance": {
+      "name": "Gebhart Factors Fixed Tolerance",
+      "type": "Real"
+    },
+    "implicit gebhardt factor fraction": {
+      "name": "Implicit Gebhardt Factor Fraction",
+      "type": "Real"
+    },
+    "implicit gebhart factor fraction": {
+      "name": "Implicit Gebhart Factor Fraction",
+      "type": "Real"
+    },
+    "initial volume": {
+      "name": "Initial Volume",
+      "type": "Real"
+    },
+    "intersect epsilon": {
+      "name": "Intersect Epsilon",
+      "type": "Real"
+    },
+    "isosurface value": {
+      "name": "Isosurface Value",
+      "type": "Real"
+    },
+    "isosurface values": {
+      "name": "Isosurface Values",
+      "type": "Real"
+    },
+    "levelset bandwidth": {
+      "name": "Levelset Bandwidth",
+      "type": "Real"
+    },
+    "limiter load tolerance": {
+      "name": "Limiter Load Tolerance",
+      "type": "Real"
+    },
+    "limiter value tolerance": {
+      "name": "Limiter Value Tolerance",
+      "type": "Real"
+    },
+    "linear system base tolerance": {
+      "name": "Linear System Base Tolerance",
+      "type": "Real"
+    },
+    "linear system convergence tolerance": {
+      "name": "Linear System Convergence Tolerance",
+      "type": "Real"
+    },
+    "linear system ilut tolerance": {
+      "name": "Linear System ILUT Tolerance",
+      "type": "Real"
+    },
+    "linear system relative tolerance": {
+      "name": "Linear System Relative Tolerance",
+      "type": "Real"
+    },
+    "load scale factor": {
+      "name": "Load Scale Factor",
+      "type": "Real"
+    },
+    "mg convergence tolerance": {
+      "name": "MG Convergence Tolerance",
+      "type": "Real"
+    },
+    "mg eliminate dirichlet limit": {
+      "name": "MG Eliminate Dirichlet Limit",
+      "type": "Real"
+    },
+    "mg geometric power": {
+      "name": "MG Geometric Power",
+      "type": "Real"
+    },
+    "mg ilut tolerance": {
+      "name": "MG ILUT Tolerance",
+      "type": "Real"
+    },
+    "mg level convergence tolerance": {
+      "name": "MG Level Convergence Tolerance",
+      "type": "Real"
+    },
+    "mg positive connection limit": {
+      "name": "MG Positive Connection Limit",
+      "type": "Real"
+    },
+    "mg projection limit": {
+      "name": "MG Projection Limit",
+      "type": "Real"
+    },
+    "mg strong connection limit": {
+      "name": "MG Strong Connection Limit",
+      "type": "Real"
+    },
+    "max mesh update": {
+      "name": "Max Mesh Update",
+      "type": "Real"
+    },
+    "maximum displacement": {
+      "name": "Maximum Displacement",
+      "type": "Real"
+    },
+    "minimum coenergy": {
+      "name": "Minimum CoEnergy",
+      "type": "Real"
+    },
+    "minimum gebhardt factor": {
+      "name": "Minimum Gebhardt Factor",
+      "type": "Real"
+    },
+    "minimum gebhart factor": {
+      "name": "Minimum Gebhart Factor",
+      "type": "Real"
+    },
+    "minimum view factor": {
+      "name": "Minimum View Factor",
+      "type": "Real"
+    },
+    "narrow band": {
+      "name": "Narrow Band",
+      "type": "Real"
+    },
+    "neglected gebhardt factor fraction": {
+      "name": "Neglected Gebhardt Factor Fraction",
+      "type": "Real"
+    },
+    "neglected gebhart factor fraction": {
+      "name": "Neglected Gebhart Factor Fraction",
+      "type": "Real"
+    },
+    "newmark beta": {
+      "name": "Newmark Beta",
+      "type": "Real"
+    },
+    "nonlinear system convergence tolerance": {
+      "name": "Nonlinear System Convergence Tolerance",
+      "type": "Real"
+    },
+    "nonlinear system linesearch factor": {
+      "name": "Nonlinear System Linesearch Factor",
+      "type": "Real"
+    },
+    "nonlinear system linesearch limit": {
+      "name": "Nonlinear System Linesearch Limit",
+      "type": "Real"
+    },
+    "nonlinear system max norm": {
+      "name": "Nonlinear System Max Norm",
+      "type": "Real"
+    },
+    "nonlinear system newton after tolerance": {
+      "name": "Nonlinear System Newton After Tolerance",
+      "type": "Real"
+    },
+    "nonlinear system relaxation factor": {
+      "name": "Nonlinear System Relaxation Factor",
+      "type": "Real"
+    },
+    "nucleitable": {
+      "name": "NucleiTable",
+      "type": "Real"
+    },
+    "optimization accuracy": {
+      "name": "Optimization Accuracy",
+      "type": "Real"
+    },
+    "parasails filter": {
+      "name": "Parasails Filter",
+      "type": "Real"
+    },
+    "parasails threshold": {
+      "name": "Parasails Threshold",
+      "type": "Real"
+    },
+    "polyline coordinates": {
+      "name": "Polyline Coordinates",
+      "type": "Real"
+    },
+    "population coefficient": {
+      "name": "Population Coefficient",
+      "type": "Real"
+    },
+    "population crossover": {
+      "name": "Population Crossover",
+      "type": "Real"
+    },
+    "potential difference": {
+      "name": "Potential Difference",
+      "type": "Real"
+    },
+    "power control": {
+      "name": "Power Control",
+      "type": "Real"
+    },
+    "ratio of convergence tolerances": {
+      "name": "Ratio of Convergence Tolerances",
+      "type": "Real"
+    },
+    "relaxation parameter a": {
+      "name": "Relaxation Parameter A",
+      "type": "Real"
+    },
+    "relaxation parameter b": {
+      "name": "Relaxation Parameter B",
+      "type": "Real"
+    },
+    "relaxation parameter c": {
+      "name": "Relaxation Parameter C",
+      "type": "Real"
+    },
+    "residual reduction ratio": {
+      "name": "Residual Reduction Ratio",
+      "type": "Real"
+    },
+    "save coordinates": {
+      "name": "Save Coordinates",
+      "type": "Real"
+    },
+    "scan range max": {
+      "name": "Scan Range Max",
+      "type": "Real"
+    },
+    "scan range min": {
+      "name": "Scan Range Min",
+      "type": "Real"
+    },
+    "shear stabilization parameter": {
+      "name": "Shear Stabilization Parameter",
+      "type": "Real"
+    },
+    "smart heater control after tolerance": {
+      "name": "Smart Heater Control After Tolerance",
+      "type": "Real"
+    },
+    "smart heater power sensitivity": {
+      "name": "Smart Heater Power Sensitivity",
+      "type": "Real"
+    },
+    "smart heater relaxation factor": {
+      "name": "Smart Heater Relaxation Factor",
+      "type": "Real"
+    },
+    "smart heater time scale": {
+      "name": "Smart Heater Time Scale",
+      "type": "Real"
+    },
+    "start grpulay if relaxation factor is more than": {
+      "name": "Start GRPulay if relaxation factor is more than",
+      "type": "Real"
+    },
+    "start time": {
+      "name": "Start Time",
+      "type": "Real"
+    },
+    "steady state condition": {
+      "name": "Steady State Condition",
+      "type": "Real"
+    },
+    "steady state convergence tolerance": {
+      "name": "Steady State Convergence Tolerance",
+      "type": "Real"
+    },
+    "steady state relaxation factor": {
+      "name": "Steady State Relaxation Factor",
+      "type": "Real"
+    },
+    "step size": {
+      "name": "Step Size",
+      "type": "Real"
+    },
+    "stop time": {
+      "name": "Stop Time",
+      "type": "Real"
+    },
+    "time derivative condition": {
+      "name": "Time Derivative Condition",
+      "type": "Real"
+    },
+    "timestep scale": {
+      "name": "Timestep Scale",
+      "type": "Real"
+    },
+    "uzawa parameter": {
+      "name": "Uzawa Parameter",
+      "type": "Real"
+    },
+    "velocity implicity": {
+      "name": "Velocity Implicity",
+      "type": "Real"
+    },
+    "view factors fixed tolerance": {
+      "name": "View Factors Fixed Tolerance",
+      "type": "Real"
+    },
+    "view factors geometry tolerance": {
+      "name": "View Factors Geometry Tolerance",
+      "type": "Real"
+    },
+    "viewfactor area tolerance": {
+      "name": "Viewfactor area tolerance",
+      "type": "Real"
+    },
+    "viewfactor factor tolerance": {
+      "name": "Viewfactor factor tolerance",
+      "type": "Real"
+    },
+    "viewfactor raytrace tolerance": {
+      "name": "Viewfactor raytrace tolerance",
+      "type": "Real"
+    },
+    "weights of eigen states": {
+      "name": "Weights of Eigen States",
+      "type": "Real"
+    },
+    "advection variable": {
+      "name": "Advection Variable",
+      "type": "String"
+    },
+    "advection": {
+      "name": "Advection",
+      "type": "String"
+    },
+    "capacitance matrix filename": {
+      "name": "Capacitance Matrix Filename",
+      "type": "String"
+    },
+    "comment": {
+      "name": "Comment",
+      "type": "String"
+    },
+    "cost function name": {
+      "name": "Cost Function Name",
+      "type": "String"
+    },
+    "default parallel operator": {
+      "name": "Default Parallel Operator",
+      "type": "String"
+    },
+    "displacement field name": {
+      "name": "Displacement Field Name",
+      "type": "String"
+    },
+    "displacement variable name": {
+      "name": "Displacement Variable Name",
+      "type": "String"
+    },
+    "eigen system select": {
+      "name": "Eigen System Select",
+      "type": "String"
+    },
+    "equation": {
+      "name": "Equation",
+      "type": "String"
+    },
+    "exec solver": {
+      "name": "Exec Solver",
+      "type": "String"
+    },
+    "flow model": {
+      "name": "Flow Model",
+      "type": "String"
+    },
+    "flux coefficient": {
+      "name": "Flux Coefficient",
+      "type": "String"
+    },
+    "flux variable": {
+      "name": "Flux Variable",
+      "type": "String"
+    },
+    "force variable name": {
+      "name": "Force Variable Name",
+      "type": "String"
+    },
+    "isosurface variable": {
+      "name": "Isosurface Variable",
+      "type": "String"
+    },
+    "lagrange multiplier name": {
+      "name": "Lagrange Multiplier Name",
+      "type": "String"
+    },
+    "levelset variable": {
+      "name": "Levelset Variable",
+      "type": "String"
+    },
+    "linear system block method": {
+      "name": "Linear System Block Method",
+      "type": "String"
+    },
+    "linear system direct method": {
+      "name": "Linear System Direct Method",
+      "type": "String"
+    },
+    "linear system iterative method": {
+      "name": "Linear System Iterative Method",
+      "type": "String"
+    },
+    "linear system preconditioning": {
+      "name": "Linear System Preconditioning",
+      "type": "String"
+    },
+    "linear system solver": {
+      "name": "Linear System Solver",
+      "type": "String"
+    },
+    "linear system scaling method": {
+      "name": "Linear System Scaling Method",
+      "type": "String"
+    },
+    "mg cluster method": {
+      "name": "MG Cluster Method",
+      "type": "String"
+    },
+    "mg lowest linear solver": {
+      "name": "MG Lowest Linear Solver",
+      "type": "String"
+    },
+    "mg method": {
+      "name": "MG Method",
+      "type": "String"
+    },
+    "mg preconditioning": {
+      "name": "MG Preconditioning",
+      "type": "String"
+    },
+    "mg smoother": {
+      "name": "MG Smoother",
+      "type": "String"
+    },
+    "mask name": {
+      "name": "Mask Name",
+      "type": "String"
+    },
+    "mask variable": {
+      "name": "Mask Variable",
+      "type": "String"
+    },
+    "mask condition": {
+      "name": "Mask Condition",
+      "type": "String"
+    },
+    "mesh input file": {
+      "name": "Mesh Input File",
+      "type": "String"
+    },
+    "model lumping filename": {
+      "name": "Model Lumping Filename",
+      "type": "String"
+    },
+    "name": {
+      "name": "Name",
+      "type": "String"
+    },
+    "namespace": {
+      "name": "Namespace",
+      "type": "String"
+    },
+    "nonlinear system convergence measure": {
+      "name": "Nonlinear System Convergence Measure",
+      "type": "String"
+    },
+    "optimization method": {
+      "name": "Optimization Method",
+      "type": "String"
+    },
+    "outer iteration method": {
+      "name": "Outer Iteration Method",
+      "type": "String"
+    },
+    "output format": {
+      "name": "Output Format",
+      "type": "String"
+    },
+    "pressure variable name": {
+      "name": "Pressure Variable Name",
+      "type": "String"
+    },
+    "rate of change equation variable": {
+      "name": "Rate Of Change Equation Variable",
+      "type": "String"
+    },
+    "relaxation method": {
+      "name": "Relaxation Method",
+      "type": "String"
+    },
+    "scalars prefix": {
+      "name": "Scalars Prefix",
+      "type": "String"
+    },
+    "solver coordinate system": {
+      "name": "Solver Coordinate System",
+      "type": "String"
+    },
+    "stabilization method": {
+      "name": "Stabilization Method",
+      "type": "String"
+    },
+    "steady state convergence measure": {
+      "name": "Steady State Convergence Measure",
+      "type": "String"
+    },
+    "stream function velocity variable": {
+      "name": "Stream Function Velocity Variable",
+      "type": "String"
+    },
+    "target variable": {
+      "name": "Target Variable",
+      "type": "String"
+    },
+    "temperature convection field": {
+      "name": "Temperature Convection Field",
+      "type": "String"
+    },
+    "timestepping method": {
+      "name": "Timestepping Method",
+      "type": "String"
+    },
+    "variable": {
+      "name": "Variable",
+      "type": "String"
+    },
+    "velocity field name": {
+      "name": "Velocity Field Name",
+      "type": "String"
+    },
+    "velocity solution name": {
+      "name": "Velocity Solution Name",
+      "type": "String"
+    },
+    "xc potential type": {
+      "name": "XC Potential type",
+      "type": "String"
+    },
+    "element": {
+      "name": "Element",
+      "type": "String"
+    },
+    "calculate loads": {
+      "name": "Calculate Loads",
+      "type": "Logical"
+    },
+    "boomeramg interpolation type": {
+      "name": "Boomeramg interpolation type",
+      "type": "Integer"
+    },
+    "boomeramg num functions": {
+      "name": "Boomeramg num functions",
+      "type": "Integer"
+    },
+    "feti projection solution group size": {
+      "name": "Feti projection solution group size",
+      "type": "Integer"
+    },
+    "hypre gmres dimension": {
+      "name": "Hypre gmres dimension",
+      "type": "Integer"
+    },
+    "feti cpg projection iterative": {
+      "name": "Feti cpg projection iterative",
+      "type": "Logical"
+    },
+    "feti preconditioning": {
+      "name": "Feti preconditioning",
+      "type": "Logical"
+    },
+    "hypre block diagonal": {
+      "name": "Hypre block diagonal",
+      "type": "Logical"
+    },
+    "mumps solve singular": {
+      "name": "Mumps solve singular",
+      "type": "Logical"
+    },
+    "total feti": {
+      "name": "Total feti",
+      "type": "Logical"
+    },
+    "boomeramg strong threshold": {
+      "name": "Boomeramg strong threshold",
+      "type": "Real"
+    },
+    "mg cluster alpha": {
+      "name": "Mg cluster alpha",
+      "type": "Real"
+    },
+    "mg smoother relaxation factor": {
+      "name": "Mg smoother relaxation factor",
+      "type": "Real"
+    },
+    "trilinos parameter file": {
+      "name": "Trilinos parameter file",
+      "type": "File"
+    },
+    "draw velocity": {
+      "name": "Draw Velocity",
+      "type": "Real"
+    }
+  },
+  "component": {
+    "variable 1": {
+      "name": "Variable 1",
+      "type": "String"
+    },
+    "operator 1": {
+      "name": "Operator 1",
+      "type": "String"
+    },
+    "number of turns": {
+      "name": "Number of Turns",
+      "type": "Real"
+    }
+  },
+  "bc": {
+    "body id": {
+      "name": "Body Id",
+      "type": "Integer"
+    },
+    "initial condition": {
+      "name": "Initial Condition",
+      "type": "Integer"
+    },
+    "capacitance body": {
+      "name": "Capacitance Body",
+      "type": "Integer"
+    },
+    "fluid coupling with boundary": {
+      "name": "Fluid Coupling With Boundary",
+      "type": "Integer"
+    },
+    "flux integrate body": {
+      "name": "Flux Integrate Body",
+      "type": "Integer"
+    },
+    "free coordinate": {
+      "name": "Free Coordinate",
+      "type": "Integer"
+    },
+    "free surface number": {
+      "name": "Free Surface Number",
+      "type": "Integer"
+    },
+    "mortar bc": {
+      "name": "Mortar BC",
+      "type": "Integer"
+    },
+    "conforming bc": {
+      "name": "Conforming BC",
+      "type": "Integer"
+    },
+    "normal target body": {
+      "name": "Normal Target Body",
+      "type": "Integer"
+    },
+    "radiation boundary": {
+      "name": "Radiation Boundary",
+      "type": "Integer"
+    },
+    "radiation target body": {
+      "name": "Radiation Target Body",
+      "type": "Integer"
+    },
+    "structure coupling with boundary": {
+      "name": "Structure Coupling With Boundary",
+      "type": "Integer"
+    },
+    "target boundaries": {
+      "name": "Target Boundaries",
+      "type": "Integer"
+    },
+    "target nodes": {
+      "name": "Target Nodes",
+      "type": "Integer"
+    },
+    "periodic bc": {
+      "name": "Periodic BC",
+      "type": "Integer"
+    },
+    "acoustic interface": {
+      "name": "Acoustic Interface",
+      "type": "Logical"
+    },
+    "absorbing bc": {
+      "name": "Absorbing BC",
+      "type": "Logical"
+    },
+    "anti radial projector": {
+      "name": "Anti Radial Projector",
+      "type": "Logical"
+    },
+    "anti rotational projector": {
+      "name": "Anti Rotational Projector",
+      "type": "Logical"
+    },
+    "anti sliding projector": {
+      "name": "Anti Sliding Projector",
+      "type": "Logical"
+    },
+    "apply conservation of charge": {
+      "name": "Apply Conservation of Charge",
+      "type": "Logical"
+    },
+    "calculate electric force": {
+      "name": "Calculate Electric Force",
+      "type": "Logical"
+    },
+    "calculate fluidic force": {
+      "name": "Calculate Fluidic Force",
+      "type": "Logical"
+    },
+    "circle boundary": {
+      "name": "Circle Boundary",
+      "type": "Logical"
+    },
+    "contact boundary": {
+      "name": "Contact Boundary",
+      "type": "Logical"
+    },
+    "current density bc": {
+      "name": "Current Density BC",
+      "type": "Logical"
+    },
+    "default target": {
+      "name": "Default Target",
+      "type": "Logical"
+    },
+    "discontinuous boundary": {
+      "name": "Discontinuous Boundary",
+      "type": "Logical"
+    },
+    "electric flux bc": {
+      "name": "Electric Flux BC",
+      "type": "Logical"
+    },
+    "electric infinity bc": {
+      "name": "Electric Infinity BC",
+      "type": "Logical"
+    },
+    "fsi bc": {
+      "name": "FSI BC",
+      "type": "Logical"
+    },
+    "flow force bc": {
+      "name": "Flow Force BC",
+      "type": "Logical"
+    },
+    "flux integrate": {
+      "name": "Flux Integrate",
+      "type": "Logical"
+    },
+    "force bc": {
+      "name": "Force BC",
+      "type": "Logical"
+    },
+    "free moving": {
+      "name": "Free Moving",
+      "type": "Logical"
+    },
+    "free surface bottom": {
+      "name": "Free Surface Bottom",
+      "type": "Logical"
+    },
+    "free surface reduced": {
+      "name": "Free Surface Reduced",
+      "type": "Logical"
+    },
+    "free surface": {
+      "name": "Free Surface",
+      "type": "Logical"
+    },
+    "good conductor bc": {
+      "name": "Good Conductor BC",
+      "type": "Logical"
+    },
+    "heat flux bc": {
+      "name": "Heat Flux BC",
+      "type": "Logical"
+    },
+    "heat gap implicit": {
+      "name": "Heat Gap Implicit",
+      "type": "Logical"
+    },
+    "heat gap": {
+      "name": "Heat Gap",
+      "type": "Logical"
+    },
+    "infinity bc": {
+      "name": "Infinity BC",
+      "type": "Logical"
+    },
+    "levelset curvature bc": {
+      "name": "Levelset Curvature BC",
+      "type": "Logical"
+    },
+    "magnetic force bc": {
+      "name": "Magnetic Force BC",
+      "type": "Logical"
+    },
+    "model lumping boundary": {
+      "name": "Model Lumping Boundary",
+      "type": "Logical"
+    },
+    "no slip condition": {
+      "name": "No Slip Condition",
+      "type": "Logical"
+    },
+    "normal-tangential displacement": {
+      "name": "Normal-Tangential Displacement",
+      "type": "Logical"
+    },
+    "normal-tangential magnetic field": {
+      "name": "Normal-Tangential Magnetic Field",
+      "type": "Logical"
+    },
+    "normal-tangential mesh update": {
+      "name": "Normal-Tangential Mesh Update",
+      "type": "Logical"
+    },
+    "normal-tangential velocity": {
+      "name": "Normal-Tangential Velocity",
+      "type": "Logical"
+    },
+    "noslip wall bc": {
+      "name": "Noslip Wall BC",
+      "type": "Logical"
+    },
+    "open side": {
+      "name": "Open Side",
+      "type": "Logical"
+    },
+    "outflow boundary": {
+      "name": "Outflow Boundary",
+      "type": "Logical"
+    },
+    "particle outlet": {
+      "name": "Particle Outlet",
+      "type": "Logical"
+    },
+    "particle reflect": {
+      "name": "Particle Reflect",
+      "type": "Logical"
+    },
+    "periodic bc filmpressure": {
+      "name": "Periodic BC Filmpressure",
+      "type": "Logical"
+    },
+    "phase change": {
+      "name": "Phase Change",
+      "type": "Logical"
+    },
+    "physical units": {
+      "name": "Physical Units",
+      "type": "Logical"
+    },
+    "plane wave bc": {
+      "name": "Plane Wave BC",
+      "type": "Logical"
+    },
+    "prescribed normal velocity": {
+      "name": "Prescribed Normal Velocity",
+      "type": "Logical"
+    },
+    "pseudo-traction": {
+      "name": "Pseudo-Traction",
+      "type": "Logical"
+    },
+    "radial projector": {
+      "name": "Radial Projector",
+      "type": "Logical"
+    },
+    "radiation boundary open": {
+      "name": "Radiation Boundary Open",
+      "type": "Logical"
+    },
+    "rotational projector": {
+      "name": "Rotational Projector",
+      "type": "Logical"
+    },
+    "save line": {
+      "name": "Save Line",
+      "type": "Logical"
+    },
+    "save scalars": {
+      "name": "Save Scalars",
+      "type": "Logical"
+    },
+    "sliding projector": {
+      "name": "Sliding Projector",
+      "type": "Logical"
+    },
+    "slip boundary": {
+      "name": "Slip Boundary",
+      "type": "Logical"
+    },
+    "smart heater boundary": {
+      "name": "Smart Heater Boundary",
+      "type": "Logical"
+    },
+    "stride projector": {
+      "name": "Stride Projector",
+      "type": "Logical"
+    },
+    "wall law": {
+      "name": "Wall Law",
+      "type": "Logical"
+    },
+    "wall temperature": {
+      "name": "Wall Temperature",
+      "type": "Logical"
+    },
+    "periodic bc concentration": {
+      "name": "Periodic BC Concentration",
+      "type": "Logical"
+    },
+    "periodic bc displacement 1": {
+      "name": "Periodic BC Displacement 1",
+      "type": "Logical"
+    },
+    "periodic bc displacement 2": {
+      "name": "Periodic BC Displacement 2",
+      "type": "Logical"
+    },
+    "periodic bc displacement 3": {
+      "name": "Periodic BC Displacement 3",
+      "type": "Logical"
+    },
+    "periodic bc explicit": {
+      "name": "Periodic BC Explicit",
+      "type": "Logical"
+    },
+    "periodic bc freesurface": {
+      "name": "Periodic BC Freesurface",
+      "type": "Logical"
+    },
+    "periodic bc mesh update 1": {
+      "name": "Periodic BC Mesh Update 1",
+      "type": "Logical"
+    },
+    "periodic bc mesh update 2": {
+      "name": "Periodic BC Mesh Update 2",
+      "type": "Logical"
+    },
+    "periodic bc mesh update 3": {
+      "name": "Periodic BC Mesh Update 3",
+      "type": "Logical"
+    },
+    "periodic bc pressure": {
+      "name": "Periodic BC Pressure",
+      "type": "Logical"
+    },
+    "periodic bc temperature": {
+      "name": "Periodic BC Temperature",
+      "type": "Logical"
+    },
+    "periodic bc velocity 1": {
+      "name": "Periodic BC Velocity 1",
+      "type": "Logical"
+    },
+    "periodic bc velocity 2": {
+      "name": "Periodic BC Velocity 2",
+      "type": "Logical"
+    },
+    "periodic bc velocity 3": {
+      "name": "Periodic BC Velocity 3",
+      "type": "Logical"
+    },
+    "az": {
+      "name": "Az",
+      "type": "Real"
+    },
+    "az re": {
+      "name": "Az Re",
+      "type": "Real"
+    },
+    "az im": {
+      "name": "Az Im",
+      "type": "Real"
+    },
+    "boundary layer thickness": {
+      "name": "Boundary Layer Thickness",
+      "type": "Real"
+    },
+    "circle r": {
+      "name": "Circle R",
+      "type": "Real"
+    },
+    "circle x": {
+      "name": "Circle X",
+      "type": "Real"
+    },
+    "circle y": {
+      "name": "Circle Y",
+      "type": "Real"
+    },
+    "concentration condition": {
+      "name": "Concentration Condition",
+      "type": "Real"
+    },
+    "concentration flux": {
+      "name": "Concentration Flux",
+      "type": "Real"
+    },
+    "concentration": {
+      "name": "Concentration",
+      "type": "Real"
+    },
+    "contact limit": {
+      "name": "Contact Limit",
+      "type": "Real"
+    },
+    "current density 1": {
+      "name": "Current Density 1",
+      "type": "Real"
+    },
+    "current density 2": {
+      "name": "Current Density 2",
+      "type": "Real"
+    },
+    "current density 3": {
+      "name": "Current Density 3",
+      "type": "Real"
+    },
+    "current density": {
+      "name": "Current Density",
+      "type": "Real"
+    },
+    "current density im": {
+      "name": "Current Density Im",
+      "type": "Real"
+    },
+    "damping": {
+      "name": "Damping",
+      "type": "Real"
+    },
+    "deflection 1": {
+      "name": "Deflection 1",
+      "type": "Real"
+    },
+    "deflection 2": {
+      "name": "Deflection 2",
+      "type": "Real"
+    },
+    "deflection 3": {
+      "name": "Deflection 3",
+      "type": "Real"
+    },
+    "deflection 4": {
+      "name": "Deflection 4",
+      "type": "Real"
+    },
+    "deflection 5": {
+      "name": "Deflection 5",
+      "type": "Real"
+    },
+    "deflection 6": {
+      "name": "Deflection 6",
+      "type": "Real"
+    },
+    "director 1": {
+      "name": "Director 1",
+      "type": "Real"
+    },
+    "director 2": {
+      "name": "Director 2",
+      "type": "Real"
+    },
+    "director 3": {
+      "name": "Director 3",
+      "type": "Real"
+    },
+    "displacement 1 condition": {
+      "name": "Displacement 1 Condition",
+      "type": "Real"
+    },
+    "displacement 1": {
+      "name": "Displacement 1",
+      "type": "Real"
+    },
+    "displacement 2 condition": {
+      "name": "Displacement 2 Condition",
+      "type": "Real"
+    },
+    "displacement 2": {
+      "name": "Displacement 2",
+      "type": "Real"
+    },
+    "displacement 3 condition": {
+      "name": "Displacement 3 Condition",
+      "type": "Real"
+    },
+    "displacement 3": {
+      "name": "Displacement 3",
+      "type": "Real"
+    },
+    "dnu 1": {
+      "name": "DNU 1",
+      "type": "Real"
+    },
+    "dnu 2": {
+      "name": "DNU 2",
+      "type": "Real"
+    },
+    "dnu 3": {
+      "name": "DNU 3",
+      "type": "Real"
+    },
+    "eo mobility": {
+      "name": "EO Mobility",
+      "type": "Real"
+    },
+    "electric current 1": {
+      "name": "Electric Current 1",
+      "type": "Real"
+    },
+    "electric current 2": {
+      "name": "Electric Current 2",
+      "type": "Real"
+    },
+    "electric current 3": {
+      "name": "Electric Current 3",
+      "type": "Real"
+    },
+    "electric current density": {
+      "name": "Electric Current Density",
+      "type": "Real"
+    },
+    "electric current density im": {
+      "name": "Electric Current Density Im",
+      "type": "Real"
+    },
+    "electric flux": {
+      "name": "Electric Flux",
+      "type": "Real"
+    },
+    "electric transfer coefficient": {
+      "name": "Electric Transfer Coefficient",
+      "type": "Real"
+    },
+    "electric transfer coefficient im": {
+      "name": "Electric Transfer Coefficient Im",
+      "type": "Real"
+    },
+    "electrode potential": {
+      "name": "Electrode Potential",
+      "type": "Real"
+    },
+    "emissivity": {
+      "name": "Emissivity",
+      "type": "Real"
+    },
+    "energy accommodation coefficient": {
+      "name": "Energy Accommodation Coefficient",
+      "type": "Real"
+    },
+    "epsilon relax": {
+      "name": "Epsilon Relax",
+      "type": "Real"
+    },
+    "external concentration": {
+      "name": "External Concentration",
+      "type": "Real"
+    },
+    "external pressure": {
+      "name": "External Pressure",
+      "type": "Real"
+    },
+    "external temperature": {
+      "name": "External Temperature",
+      "type": "Real"
+    },
+    "filmpressure condition": {
+      "name": "FilmPressure Condition",
+      "type": "Real"
+    },
+    "filmpressure": {
+      "name": "FilmPressure",
+      "type": "Real"
+    },
+    "flux 1": {
+      "name": "Flux 1",
+      "type": "Real"
+    },
+    "flux 2": {
+      "name": "Flux 2",
+      "type": "Real"
+    },
+    "flux": {
+      "name": "Flux",
+      "type": "Real"
+    },
+    "force 1": {
+      "name": "Force 1",
+      "type": "Real"
+    },
+    "force 2": {
+      "name": "Force 2",
+      "type": "Real"
+    },
+    "force 3": {
+      "name": "Force 3",
+      "type": "Real"
+    },
+    "force 4": {
+      "name": "Force 4",
+      "type": "Real"
+    },
+    "force 5": {
+      "name": "Force 5",
+      "type": "Real"
+    },
+    "force 6": {
+      "name": "Force 6",
+      "type": "Real"
+    },
+    "freesurface": {
+      "name": "FreeSurface",
+      "type": "Real"
+    },
+    "heat flux": {
+      "name": "Heat Flux",
+      "type": "Real"
+    },
+    "heat transfer coefficient": {
+      "name": "Heat Transfer Coefficient",
+      "type": "Real"
+    },
+    "im normal force": {
+      "name": "Im Normal Force",
+      "type": "Real"
+    },
+    "im normal velocity": {
+      "name": "Im Normal Velocity",
+      "type": "Real"
+    },
+    "im reference wall velocity": {
+      "name": "Im Reference Wall Velocity",
+      "type": "Real"
+    },
+    "im specific acoustic impedance": {
+      "name": "Im Specific Acoustic Impedance",
+      "type": "Real"
+    },
+    "im specific thermal impedance": {
+      "name": "Im Specific Thermal Impedance",
+      "type": "Real"
+    },
+    "im surface traction 1": {
+      "name": "Im Surface Traction 1",
+      "type": "Real"
+    },
+    "im surface traction 2": {
+      "name": "Im Surface Traction 2",
+      "type": "Real"
+    },
+    "im surface traction 3": {
+      "name": "Im Surface Traction 3",
+      "type": "Real"
+    },
+    "im temperature": {
+      "name": "Im Temperature",
+      "type": "Real"
+    },
+    "im velocity 1": {
+      "name": "Im Velocity 1",
+      "type": "Real"
+    },
+    "im velocity 2": {
+      "name": "Im Velocity 2",
+      "type": "Real"
+    },
+    "im velocity 3": {
+      "name": "Im Velocity 3",
+      "type": "Real"
+    },
+    "kepsilon 1": {
+      "name": "KEpsilon 1",
+      "type": "Real"
+    },
+    "kepsilon 2": {
+      "name": "KEpsilon 2",
+      "type": "Real"
+    },
+    "kinetic dissipation": {
+      "name": "Kinetic Dissipation",
+      "type": "Real"
+    },
+    "kinetic energy": {
+      "name": "Kinetic Energy",
+      "type": "Real"
+    },
+    "latent heat": {
+      "name": "Latent Heat",
+      "type": "Real"
+    },
+    "layer charge density": {
+      "name": "Layer Charge Density",
+      "type": "Real"
+    },
+    "layer electric conductivity": {
+      "name": "Layer Electric Conductivity",
+      "type": "Real"
+    },
+    "layer electric conductivity im": {
+      "name": "Layer Electric Conductivity Im",
+      "type": "Real"
+    },
+    "layer relative permeability": {
+      "name": "Layer Relative Permeability",
+      "type": "Real"
+    },
+    "layer relative permittivity": {
+      "name": "Layer Relative Permittivity",
+      "type": "Real"
+    },
+    "layer relative reluctivity": {
+      "name": "Layer Relative Reluctivity",
+      "type": "Real"
+    },
+    "layer relative reluctivity im": {
+      "name": "Layer Relative Reluctivity Im",
+      "type": "Real"
+    },
+    "layer thickness": {
+      "name": "Layer Thickness",
+      "type": "Real"
+    },
+    "magnetic field 1": {
+      "name": "Magnetic Field 1",
+      "type": "Real"
+    },
+    "magnetic field 2": {
+      "name": "Magnetic Field 2",
+      "type": "Real"
+    },
+    "magnetic field 3": {
+      "name": "Magnetic Field 3",
+      "type": "Real"
+    },
+    "magnetic field strength 1": {
+      "name": "Magnetic Field Strength 1",
+      "type": "Real"
+    },
+    "magnetic field strength 2": {
+      "name": "Magnetic Field Strength 2",
+      "type": "Real"
+    },
+    "magnetic field strength 3": {
+      "name": "Magnetic Field Strength 3",
+      "type": "Real"
+    },
+    "magnetic field strength im 1": {
+      "name": "Magnetic Field Strength Im 1",
+      "type": "Real"
+    },
+    "magnetic field strength im 2": {
+      "name": "Magnetic Field Strength Im 2",
+      "type": "Real"
+    },
+    "magnetic field strength im 3": {
+      "name": "Magnetic Field Strength Im 3",
+      "type": "Real"
+    },
+    "magnetic flux density 1": {
+      "name": "Magnetic Flux Density 1",
+      "type": "Real"
+    },
+    "magnetic flux density 2": {
+      "name": "Magnetic Flux Density 2",
+      "type": "Real"
+    },
+    "magnetic flux density 3": {
+      "name": "Magnetic Flux Density 3",
+      "type": "Real"
+    },
+    "magnetic force 1": {
+      "name": "Magnetic Force 1",
+      "type": "Real"
+    },
+    "magnetic force 2": {
+      "name": "Magnetic Force 2",
+      "type": "Real"
+    },
+    "magnetic force 3": {
+      "name": "Magnetic Force 3",
+      "type": "Real"
+    },
+    "magnetic vector potential 1": {
+      "name": "Magnetic Vector Potential 1",
+      "type": "Real"
+    },
+    "magnetic vector potential 2": {
+      "name": "Magnetic Vector Potential 2",
+      "type": "Real"
+    },
+    "magnetic vector potential 3": {
+      "name": "Magnetic Vector Potential 3",
+      "type": "Real"
+    },
+    "magnetic vector potential": {
+      "name": "Magnetic Vector Potential",
+      "type": "Real"
+    },
+    "mass 1": {
+      "name": "Mass 1",
+      "type": "Real"
+    },
+    "mass 2": {
+      "name": "Mass 2",
+      "type": "Real"
+    },
+    "mass 3": {
+      "name": "Mass 3",
+      "type": "Real"
+    },
+    "mass 4": {
+      "name": "Mass 4",
+      "type": "Real"
+    },
+    "mass 5": {
+      "name": "Mass 5",
+      "type": "Real"
+    },
+    "mass 6": {
+      "name": "Mass 6",
+      "type": "Real"
+    },
+    "mass flux": {
+      "name": "Mass Flux",
+      "type": "Real"
+    },
+    "mass transfer coefficient": {
+      "name": "Mass Transfer Coefficient",
+      "type": "Real"
+    },
+    "melting point": {
+      "name": "Melting Point",
+      "type": "Real"
+    },
+    "mesh force 1": {
+      "name": "Mesh Force 1",
+      "type": "Real"
+    },
+    "mesh force 2": {
+      "name": "Mesh Force 2",
+      "type": "Real"
+    },
+    "mesh force 3": {
+      "name": "Mesh Force 3",
+      "type": "Real"
+    },
+    "mesh normal force": {
+      "name": "Mesh Normal Force",
+      "type": "Real"
+    },
+    "mesh update 1": {
+      "name": "Mesh Update 1",
+      "type": "Real"
+    },
+    "mesh update 2": {
+      "name": "Mesh Update 2",
+      "type": "Real"
+    },
+    "mesh update 3": {
+      "name": "Mesh Update 3",
+      "type": "Real"
+    },
+    "mesh velocity 1": {
+      "name": "Mesh Velocity 1",
+      "type": "Real"
+    },
+    "mesh velocity 2": {
+      "name": "Mesh Velocity 2",
+      "type": "Real"
+    },
+    "mesh velocity 3": {
+      "name": "Mesh Velocity 3",
+      "type": "Real"
+    },
+    "moment about 1": {
+      "name": "Moment About 1",
+      "type": "Real"
+    },
+    "moment about 2": {
+      "name": "Moment About 2",
+      "type": "Real"
+    },
+    "moment about 3": {
+      "name": "Moment About 3",
+      "type": "Real"
+    },
+    "moment about": {
+      "name": "Moment About",
+      "type": "Real"
+    },
+    "momentum accommodation coefficient": {
+      "name": "Momentum Accommodation Coefficient",
+      "type": "Real"
+    },
+    "mortar bc scaling": {
+      "name": "Mortar BC Scaling",
+      "type": "Real"
+    },
+    "normal force": {
+      "name": "Normal Force",
+      "type": "Real"
+    },
+    "normal surface traction": {
+      "name": "Normal Surface Traction",
+      "type": "Real"
+    },
+    "normal vector": {
+      "name": "Normal Vector",
+      "type": "Real"
+    },
+    "phase velocity 1": {
+      "name": "Phase Velocity 1",
+      "type": "Real"
+    },
+    "phase velocity 2": {
+      "name": "Phase Velocity 2",
+      "type": "Real"
+    },
+    "phase velocity 3": {
+      "name": "Phase Velocity 3",
+      "type": "Real"
+    },
+    "potential 1": {
+      "name": "Potential 1",
+      "type": "Real"
+    },
+    "potential 2": {
+      "name": "Potential 2",
+      "type": "Real"
+    },
+    "potential condition": {
+      "name": "Potential Condition",
+      "type": "Real"
+    },
+    "potential im": {
+      "name": "Potential Im",
+      "type": "Real"
+    },
+    "potential load": {
+      "name": "Potential Load",
+      "type": "Real"
+    },
+    "potential re": {
+      "name": "Potential Re",
+      "type": "Real"
+    },
+    "potential": {
+      "name": "Potential",
+      "type": "Real"
+    },
+    "pressure 1": {
+      "name": "Pressure 1",
+      "type": "Real"
+    },
+    "pressure 2": {
+      "name": "Pressure 2",
+      "type": "Real"
+    },
+    "pressure 3": {
+      "name": "Pressure 3",
+      "type": "Real"
+    },
+    "pressure wave 1 condition": {
+      "name": "Pressure Wave 1 Condition",
+      "type": "Real"
+    },
+    "pressure wave 1": {
+      "name": "Pressure Wave 1",
+      "type": "Real"
+    },
+    "pressure wave 2 condition": {
+      "name": "Pressure Wave 2 Condition",
+      "type": "Real"
+    },
+    "pressure wave 2": {
+      "name": "Pressure Wave 2",
+      "type": "Real"
+    },
+    "pressure": {
+      "name": "Pressure",
+      "type": "Real"
+    },
+    "radiation external temperature": {
+      "name": "Radiation External Temperature",
+      "type": "Real"
+    },
+    "re normal force": {
+      "name": "Re Normal Force",
+      "type": "Real"
+    },
+    "re normal velocity": {
+      "name": "Re Normal Velocity",
+      "type": "Real"
+    },
+    "re reference wall velocity": {
+      "name": "Re Reference Wall Velocity",
+      "type": "Real"
+    },
+    "re specific acoustic impedance": {
+      "name": "Re Specific Acoustic Impedance",
+      "type": "Real"
+    },
+    "re specific thermal impedance": {
+      "name": "Re Specific Thermal Impedance",
+      "type": "Real"
+    },
+    "re surface traction 1": {
+      "name": "Re Surface Traction 1",
+      "type": "Real"
+    },
+    "re surface traction 2": {
+      "name": "Re Surface Traction 2",
+      "type": "Real"
+    },
+    "re surface traction 3": {
+      "name": "Re Surface Traction 3",
+      "type": "Real"
+    },
+    "re temperature": {
+      "name": "Re Temperature",
+      "type": "Real"
+    },
+    "re velocity 1": {
+      "name": "Re Velocity 1",
+      "type": "Real"
+    },
+    "re velocity 2": {
+      "name": "Re Velocity 2",
+      "type": "Real"
+    },
+    "re velocity 3": {
+      "name": "Re Velocity 3",
+      "type": "Real"
+    },
+    "reference wall temperature": {
+      "name": "Reference Wall Temperature",
+      "type": "Real"
+    },
+    "resultant force 1": {
+      "name": "Resultant Force 1",
+      "type": "Real"
+    },
+    "resultant force 2": {
+      "name": "Resultant Force 2",
+      "type": "Real"
+    },
+    "resultant force 3": {
+      "name": "Resultant Force 3",
+      "type": "Real"
+    },
+    "resultant couple 1": {
+      "name": "Resultant Couple 1",
+      "type": "Real"
+    },
+    "resultant couple 2": {
+      "name": "Resultant Couple 2",
+      "type": "Real"
+    },
+    "resultant couple 3": {
+      "name": "Resultant Couple 3",
+      "type": "Real"
+    },
+    "richards flux": {
+      "name": "Richards Flux",
+      "type": "Real"
+    },
+    "slip coefficient 1": {
+      "name": "Slip Coefficient 1",
+      "type": "Real"
+    },
+    "slip coefficient 2": {
+      "name": "Slip Coefficient 2",
+      "type": "Real"
+    },
+    "slip coefficient 3": {
+      "name": "Slip Coefficient 3",
+      "type": "Real"
+    },
+    "smart heater temperature": {
+      "name": "Smart Heater Temperature",
+      "type": "Real"
+    },
+    "spring": {
+      "name": "Spring",
+      "type": "Real"
+    },
+    "spring 1": {
+      "name": "Spring 1",
+      "type": "Real"
+    },
+    "spring 2": {
+      "name": "Spring 2",
+      "type": "Real"
+    },
+    "spring 3": {
+      "name": "Spring 3",
+      "type": "Real"
+    },
+    "spring 4": {
+      "name": "Spring 4",
+      "type": "Real"
+    },
+    "spring 5": {
+      "name": "Spring 5",
+      "type": "Real"
+    },
+    "spring 6": {
+      "name": "Spring 6",
+      "type": "Real"
+    },
+    "stress": {
+      "name": "Stress",
+      "type": "Real"
+    },
+    "source acceleration": {
+      "name": "Source Acceleration",
+      "type": "Real"
+    },
+    "surface charge density": {
+      "name": "Surface Charge Density",
+      "type": "Real"
+    },
+    "surface charge": {
+      "name": "Surface Charge",
+      "type": "Real"
+    },
+    "surface current": {
+      "name": "Surface Current",
+      "type": "Real"
+    },
+    "surface current im": {
+      "name": "Surface Current Im",
+      "type": "Real"
+    },
+    "surface roughness": {
+      "name": "Surface Roughness",
+      "type": "Real"
+    },
+    "surface tension coefficient": {
+      "name": "Surface Tension Coefficient",
+      "type": "Real"
+    },
+    "surface tension expansion coefficient": {
+      "name": "Surface Tension Expansion Coefficient",
+      "type": "Real"
+    },
+    "surface traction 1": {
+      "name": "Surface Traction 1",
+      "type": "Real"
+    },
+    "surface traction 2": {
+      "name": "Surface Traction 2",
+      "type": "Real"
+    },
+    "surface traction 3": {
+      "name": "Surface Traction 3",
+      "type": "Real"
+    },
+    "target coordinates eps": {
+      "name": "Target Coordinates Eps",
+      "type": "Real"
+    },
+    "target coordinates": {
+      "name": "Target Coordinates",
+      "type": "Real"
+    },
+    "tem potential": {
+      "name": "TEM Potential",
+      "type": "Real"
+    },
+    "tem potential im": {
+      "name": "TEM Potential Im",
+      "type": "Real"
+    },
+    "temperature condition": {
+      "name": "Temperature Condition",
+      "type": "Real"
+    },
+    "temperature load": {
+      "name": "Temperature Load",
+      "type": "Real"
+    },
+    "temperature": {
+      "name": "Temperature",
+      "type": "Real"
+    },
+    "theta 1": {
+      "name": "Theta 1",
+      "type": "Real"
+    },
+    "theta 2": {
+      "name": "Theta 2",
+      "type": "Real"
+    },
+    "theta 3": {
+      "name": "Theta 3",
+      "type": "Real"
+    },
+    "torque 1": {
+      "name": "Torque 1",
+      "type": "Real"
+    },
+    "torque 2": {
+      "name": "Torque 2",
+      "type": "Real"
+    },
+    "torque 3": {
+      "name": "Torque 3",
+      "type": "Real"
+    },
+    "total head": {
+      "name": "Total Head",
+      "type": "Real"
+    },
+    "transmissivity": {
+      "name": "Transmissivity",
+      "type": "Real"
+    },
+    "u 1": {
+      "name": "U 1",
+      "type": "Real"
+    },
+    "u 2": {
+      "name": "U 2",
+      "type": "Real"
+    },
+    "u 3": {
+      "name": "U 3",
+      "type": "Real"
+    },
+    "velocity 1 condition": {
+      "name": "Velocity 1 Condition",
+      "type": "Real"
+    },
+    "velocity 1": {
+      "name": "Velocity 1",
+      "type": "Real"
+    },
+    "velocity 2 condition": {
+      "name": "Velocity 2 Condition",
+      "type": "Real"
+    },
+    "velocity 2": {
+      "name": "Velocity 2",
+      "type": "Real"
+    },
+    "velocity 3 condition": {
+      "name": "Velocity 3 Condition",
+      "type": "Real"
+    },
+    "velocity 3": {
+      "name": "Velocity 3",
+      "type": "Real"
+    },
+    "wave flux 1": {
+      "name": "Wave Flux 1",
+      "type": "Real"
+    },
+    "wave flux 2": {
+      "name": "Wave Flux 2",
+      "type": "Real"
+    },
+    "wave impedance 1": {
+      "name": "Wave Impedance 1",
+      "type": "Real"
+    },
+    "wave impedance 2": {
+      "name": "Wave Impedance 2",
+      "type": "Real"
+    },
+    "zeta potential": {
+      "name": "Zeta Potential",
+      "type": "Real"
+    },
+    "periodic bc matrix": {
+      "name": "Periodic BC Matrix",
+      "type": "Real"
+    },
+    "periodic bc rotate": {
+      "name": "Periodic BC Rotate",
+      "type": "Real"
+    },
+    "periodic bc scale": {
+      "name": "Periodic BC Scale",
+      "type": "Real"
+    },
+    "periodic bc translate": {
+      "name": "Periodic BC Translate",
+      "type": "Real"
+    },
+    "field": {
+      "name": "Field",
+      "type": "Real"
+    },
+    "field flux": {
+      "name": "Field Flux",
+      "type": "Real"
+    },
+    "robin coefficient": {
+      "name": "Robin Coefficient",
+      "type": "Real"
+    },
+    "external field": {
+      "name": "External Field",
+      "type": "Real"
+    },
+    "external potential": {
+      "name": "External Potential",
+      "type": "Real"
+    },
+    "name": {
+      "name": "Name",
+      "type": "String"
+    },
+    "radiation": {
+      "name": "Radiation",
+      "type": "String"
+    },
+    "filmspeed": {
+      "name": "FilmSpeed",
+      "type": "Real"
+    },
+    "filmvelocity 1": {
+      "name": "FilmVelocity 1",
+      "type": "Real"
+    },
+    "filmvelocity 2": {
+      "name": "FilmVelocity 2",
+      "type": "Real"
+    }
+  },
+  "body": {
+    "body force": {
+      "name": "Body Force",
+      "type": "Integer"
+    },
+    "equation": {
+      "name": "Equation",
+      "type": "Integer"
+    },
+    "flux integrate body": {
+      "name": "Flux Integrate Body",
+      "type": "Integer"
+    },
+    "initial condition": {
+      "name": "Initial Condition",
+      "type": "Integer"
+    },
+    "material": {
+      "name": "Material",
+      "type": "Integer"
+    },
+    "target bodies": {
+      "name": "Target Bodies",
+      "type": "Integer"
+    },
+    "rigid body": {
+      "name": "Rigid Body",
+      "type": "Logical"
+    },
+    "save line": {
+      "name": "Save Line",
+      "type": "Logical"
+    },
+    "spherical body": {
+      "name": "Spherical Body",
+      "type": "Logical"
+    },
+    "radiative body": {
+      "name": "Radiative Body",
+      "type": "Logical"
+    },
+    "name": {
+      "name": "Name",
+      "type": "String"
+    }
+  },
+  "bodyforce": {
+    "averaged lorentz force": {
+      "name": "Averaged Lorentz Force",
+      "type": "Logical"
+    },
+    "boussinesq": {
+      "name": "Boussinesq",
+      "type": "Logical"
+    },
+    "calculate potential": {
+      "name": "Calculate Potential",
+      "type": "Logical"
+    },
+    "friction heat": {
+      "name": "Friction Heat",
+      "type": "Logical"
+    },
+    "hydrostatic pressure": {
+      "name": "Hydrostatic Pressure",
+      "type": "Logical"
+    },
+    "joule heat": {
+      "name": "Joule Heat",
+      "type": "Logical"
+    },
+    "lorentz force": {
+      "name": "Lorentz Force",
+      "type": "Logical"
+    },
+    "physical units": {
+      "name": "Physical Units",
+      "type": "Logical"
+    },
+    "piezo material": {
+      "name": "Piezo Material",
+      "type": "Logical"
+    },
+    "potential force": {
+      "name": "Potential Force",
+      "type": "Logical"
+    },
+    "smart heater control": {
+      "name": "Smart Heater Control",
+      "type": "Logical"
+    },
+    "ac magnetic field 1 im": {
+      "name": "AC Magnetic Field 1 Im",
+      "type": "Real"
+    },
+    "ac magnetic field 1 re": {
+      "name": "AC Magnetic Field 1 Re",
+      "type": "Real"
+    },
+    "ac magnetic field 2 im": {
+      "name": "AC Magnetic Field 2 Im",
+      "type": "Real"
+    },
+    "ac magnetic field 2 re": {
+      "name": "AC Magnetic Field 2 Re",
+      "type": "Real"
+    },
+    "ac magnetic field 3 im": {
+      "name": "AC Magnetic Field 3 Im",
+      "type": "Real"
+    },
+    "ac magnetic field 3 re": {
+      "name": "AC Magnetic Field 3 Re",
+      "type": "Real"
+    },
+    "ac magnetic field im": {
+      "name": "AC Magnetic Field Im",
+      "type": "Real"
+    },
+    "ac magnetic field re": {
+      "name": "AC Magnetic Field Re",
+      "type": "Real"
+    },
+    "accumulation ablation": {
+      "name": "Accumulation Ablation",
+      "type": "Real"
+    },
+    "accumulation flux 1": {
+      "name": "Accumulation Flux 1",
+      "type": "Real"
+    },
+    "accumulation flux 2": {
+      "name": "Accumulation Flux 2",
+      "type": "Real"
+    },
+    "accumulation flux 3": {
+      "name": "Accumulation Flux 3",
+      "type": "Real"
+    },
+    "angular velocity": {
+      "name": "Angular Velocity",
+      "type": "Real"
+    },
+    "body force 1": {
+      "name": "Body Force 1",
+      "type": "Real"
+    },
+    "body force 2": {
+      "name": "Body Force 2",
+      "type": "Real"
+    },
+    "body force 3": {
+      "name": "Body Force 3",
+      "type": "Real"
+    },
+    "charge density": {
+      "name": "Charge Density",
+      "type": "Real"
+    },
+    "concentration diffusion source": {
+      "name": "Concentration Diffusion Source",
+      "type": "Real"
+    },
+    "current density": {
+      "name": "Current Density",
+      "type": "Real"
+    },
+    "current density 1": {
+      "name": "Current Density 1",
+      "type": "Real"
+    },
+    "current density 2": {
+      "name": "Current Density 2",
+      "type": "Real"
+    },
+    "current density 3": {
+      "name": "Current Density 3",
+      "type": "Real"
+    },
+    "current density im 1": {
+      "name": "Current Density Im 1",
+      "type": "Real"
+    },
+    "current density im 2": {
+      "name": "Current Density Im 2",
+      "type": "Real"
+    },
+    "current density im 3": {
+      "name": "Current Density Im 3",
+      "type": "Real"
+    },
+    "electric potential": {
+      "name": "Electric Potential",
+      "type": "Real"
+    },
+    "current phase angle": {
+      "name": "Current Phase Angle",
+      "type": "Real"
+    },
+    "current source": {
+      "name": "Current Source",
+      "type": "Real"
+    },
+    "displacement 1 condition": {
+      "name": "Displacement 1 Condition",
+      "type": "Real"
+    },
+    "displacement 2 condition": {
+      "name": "Displacement 2 Condition",
+      "type": "Real"
+    },
+    "displacement 3 condition": {
+      "name": "Displacement 3 Condition",
+      "type": "Real"
+    },
+    "displacement passive": {
+      "name": "Displacement Passive",
+      "type": "Real"
+    },
+    "filmpressure condition": {
+      "name": "FilmPressure Condition",
+      "type": "Real"
+    },
+    "filmpressure": {
+      "name": "FilmPressure",
+      "type": "Real"
+    },
+    "filmpressure lower limit": {
+      "name": "Filmpressure Lower Limit",
+      "type": "Real"
+    },
+    "flow bodyforce 1": {
+      "name": "Flow BodyForce 1",
+      "type": "Real"
+    },
+    "flow bodyforce 2": {
+      "name": "Flow BodyForce 2",
+      "type": "Real"
+    },
+    "flow bodyforce 3": {
+      "name": "Flow BodyForce 3",
+      "type": "Real"
+    },
+    "freesurface accumulation flux 1": {
+      "name": "FreeSurface Accumulation Flux 1",
+      "type": "Real"
+    },
+    "freesurface accumulation flux 2": {
+      "name": "FreeSurface Accumulation Flux 2",
+      "type": "Real"
+    },
+    "freesurface accumulation flux 3": {
+      "name": "FreeSurface Accumulation Flux 3",
+      "type": "Real"
+    },
+    "freesurface accumulation": {
+      "name": "FreeSurface Accumulation",
+      "type": "Real"
+    },
+    "heat source": {
+      "name": "Heat Source",
+      "type": "Real"
+    },
+    "volumetric heat source": {
+      "name": "Volumetric Heat Source",
+      "type": "Real"
+    },
+    "integral heat source": {
+      "name": "Integral Heat Source",
+      "type": "Real"
+    },
+    "levelset flux": {
+      "name": "Levelset Flux",
+      "type": "Real"
+    },
+    "lorentz velocity 1": {
+      "name": "Lorentz Velocity 1",
+      "type": "Real"
+    },
+    "lorentz velocity 2": {
+      "name": "Lorentz Velocity 2",
+      "type": "Real"
+    },
+    "lorentz velocity 3": {
+      "name": "Lorentz Velocity 3",
+      "type": "Real"
+    },
+    "magnetic bodyforce 1": {
+      "name": "Magnetic BodyForce 1",
+      "type": "Real"
+    },
+    "magnetic bodyforce 2": {
+      "name": "Magnetic BodyForce 2",
+      "type": "Real"
+    },
+    "magnetic bodyforce 3": {
+      "name": "Magnetic BodyForce 3",
+      "type": "Real"
+    },
+    "magnetization 1": {
+      "name": "Magnetization 1",
+      "type": "Real"
+    },
+    "magnetization 2": {
+      "name": "Magnetization 2",
+      "type": "Real"
+    },
+    "magnetization 3": {
+      "name": "Magnetization 3",
+      "type": "Real"
+    },
+    "magnetization im 1": {
+      "name": "Magnetization Im 1",
+      "type": "Real"
+    },
+    "magnetization im 2": {
+      "name": "Magnetization Im 2",
+      "type": "Real"
+    },
+    "magnetization im 3": {
+      "name": "Magnetization Im 3",
+      "type": "Real"
+    },
+    "mesh origin": {
+      "name": "Mesh Origin",
+      "type": "Real"
+    },
+    "mesh relax": {
+      "name": "Mesh Relax",
+      "type": "Real"
+    },
+    "mesh rotate 1": {
+      "name": "Mesh Rotate 1",
+      "type": "Real"
+    },
+    "mesh rotate 2": {
+      "name": "Mesh Rotate 2",
+      "type": "Real"
+    },
+    "mesh rotate 3": {
+      "name": "Mesh Rotate 3",
+      "type": "Real"
+    },
+    "mesh rotate": {
+      "name": "Mesh Rotate",
+      "type": "Real"
+    },
+    "mesh translate 1": {
+      "name": "Mesh Translate 1",
+      "type": "Real"
+    },
+    "mesh translate 2": {
+      "name": "Mesh Translate 2",
+      "type": "Real"
+    },
+    "mesh translate 3": {
+      "name": "Mesh Translate 3",
+      "type": "Real"
+    },
+    "mesh translate": {
+      "name": "Mesh Translate",
+      "type": "Real"
+    },
+    "normal pressure": {
+      "name": "Normal Pressure",
+      "type": "Real"
+    },
+    "perfusion density": {
+      "name": "Perfusion Density",
+      "type": "Real"
+    },
+    "perfusion heat capacity": {
+      "name": "Perfusion Heat Capacity",
+      "type": "Real"
+    },
+    "perfusion rate": {
+      "name": "Perfusion Rate",
+      "type": "Real"
+    },
+    "perfusion reference temperature": {
+      "name": "Perfusion Reference Temperature",
+      "type": "Real"
+    },
+    "point load": {
+      "name": "Point Load",
+      "type": "Real"
+    },
+    "potential coefficient": {
+      "name": "Potential Coefficient",
+      "type": "Real"
+    },
+    "potential condition": {
+      "name": "Potential Condition",
+      "type": "Real"
+    },
+    "potential field": {
+      "name": "Potential Field",
+      "type": "Real"
+    },
+    "potential load": {
+      "name": "Potential Load",
+      "type": "Real"
+    },
+    "potential": {
+      "name": "Potential",
+      "type": "Real"
+    },
+    "pressure lower limit": {
+      "name": "Pressure Lower Limit",
+      "type": "Real"
+    },
+    "pressure source 1": {
+      "name": "Pressure Source 1",
+      "type": "Real"
+    },
+    "pressure source 2": {
+      "name": "Pressure Source 2",
+      "type": "Real"
+    },
+    "pressure": {
+      "name": "Pressure",
+      "type": "Real"
+    },
+    "richards source": {
+      "name": "Richards Source",
+      "type": "Real"
+    },
+    "smart heater control point": {
+      "name": "Smart Heater Control Point",
+      "type": "Real"
+    },
+    "smart heater temperature": {
+      "name": "Smart Heater Temperature",
+      "type": "Real"
+    },
+    "sound source": {
+      "name": "Sound Source",
+      "type": "Real"
+    },
+    "source": {
+      "name": "Source",
+      "type": "Real"
+    },
+    "source field": {
+      "name": "Source Field",
+      "type": "Real"
+    },
+    "strain": {
+      "name": "Strain",
+      "type": "Real"
+    },
+    "strain load": {
+      "name": "Strain Load",
+      "type": "Real"
+    },
+    "stress": {
+      "name": "Stress",
+      "type": "Real"
+    },
+    "stress bodyforce 1": {
+      "name": "Stress Bodyforce 1",
+      "type": "Real"
+    },
+    "stress bodyforce 2": {
+      "name": "Stress Bodyforce 2",
+      "type": "Real"
+    },
+    "stress bodyforce 3": {
+      "name": "Stress Bodyforce 3",
+      "type": "Real"
+    },
+    "stress load": {
+      "name": "Stress Load",
+      "type": "Real"
+    },
+    "stress pressure": {
+      "name": "Stress Pressure",
+      "type": "Real"
+    },
+    "temperature condition": {
+      "name": "Temperature Condition",
+      "type": "Real"
+    },
+    "temperature load": {
+      "name": "Temperature Load",
+      "type": "Real"
+    },
+    "temperature lower limit": {
+      "name": "Temperature Lower Limit",
+      "type": "Real"
+    },
+    "temperature passive": {
+      "name": "Temperature Passive",
+      "type": "Real"
+    },
+    "velocity 1 condition": {
+      "name": "Velocity 1 Condition",
+      "type": "Real"
+    },
+    "velocity 1": {
+      "name": "Velocity 1",
+      "type": "Real"
+    },
+    "velocity 2 condition": {
+      "name": "Velocity 2 Condition",
+      "type": "Real"
+    },
+    "velocity 2": {
+      "name": "Velocity 2",
+      "type": "Real"
+    },
+    "velocity 3 condition": {
+      "name": "Velocity 3 Condition",
+      "type": "Real"
+    },
+    "velocity 3": {
+      "name": "Velocity 3",
+      "type": "Real"
+    },
+    "field source": {
+      "name": "Field Source",
+      "type": "Real"
+    },
+    "name": {
+      "name": "Name",
+      "type": "String"
+    }
+  },
+  "boundary": {
+    "body 1": {
+      "name": "Body 1",
+      "type": "Integer"
+    },
+    "body 2": {
+      "name": "Body 2",
+      "type": "Integer"
+    },
+    "body id": {
+      "name": "Body Id",
+      "type": "Integer"
+    },
+    "boundary condition": {
+      "name": "Boundary Condition",
+      "type": "Integer"
+    },
+    "name": {
+      "name": "Name",
+      "type": "String"
+    }
+  },
+  "constants": {
+    "boltzmann constant": {
+      "name": "Boltzmann Constant",
+      "type": "Real"
+    },
+    "gravity": {
+      "name": "Gravity",
+      "type": "Real"
+    },
+    "permeability of vacuum": {
+      "name": "Permeability Of Vacuum",
+      "type": "Real"
+    },
+    "permittivity of vacuum": {
+      "name": "Permittivity Of Vacuum",
+      "type": "Real"
+    },
+    "stefan boltzmann": {
+      "name": "Stefan Boltzmann",
+      "type": "Real"
+    },
+    "unit charge": {
+      "name": "Unit Charge",
+      "type": "Real"
+    }
+  },
+  "equation": {
+    "active solvers": {
+      "name": "Active Solvers",
+      "type": "Integer"
+    },
+    "acoustic equations": {
+      "name": "Acoustic Equations",
+      "type": "Logical"
+    },
+    "calculate capacitance matrix": {
+      "name": "Calculate Capacitance Matrix",
+      "type": "Logical"
+    },
+    "calculate electric energy": {
+      "name": "Calculate Electric Energy",
+      "type": "Logical"
+    },
+    "calculate joule heating": {
+      "name": "Calculate Joule Heating",
+      "type": "Logical"
+    },
+    "calculate stresses": {
+      "name": "Calculate Stresses",
+      "type": "Logical"
+    },
+    "check latent heat release": {
+      "name": "Check Latent Heat Release",
+      "type": "Logical"
+    },
+    "heat equation": {
+      "name": "Heat Equation",
+      "type": "Logical"
+    },
+    "hydrostatic pressure": {
+      "name": "Hydrostatic Pressure",
+      "type": "Logical"
+    },
+    "ke turbulence": {
+      "name": "KE Turbulence",
+      "type": "Logical"
+    },
+    "mesh update": {
+      "name": "Mesh Update",
+      "type": "Logical"
+    },
+    "ns convect": {
+      "name": "NS Convect",
+      "type": "Logical"
+    },
+    "navier-stokes": {
+      "name": "Navier-Stokes",
+      "type": "Logical"
+    },
+    "plane stress": {
+      "name": "Plane Stress",
+      "type": "Logical"
+    },
+    "stress analysis": {
+      "name": "Stress Analysis",
+      "type": "Logical"
+    },
+    "user defined velocity": {
+      "name": "User Defined Velocity",
+      "type": "Logical"
+    },
+    "angular frequency": {
+      "name": "Angular Frequency",
+      "type": "Real"
+    },
+    "concentration convection velocity 1": {
+      "name": "Concentration Convection Velocity 1",
+      "type": "Real"
+    },
+    "concentration convection velocity 2": {
+      "name": "Concentration Convection Velocity 2",
+      "type": "Real"
+    },
+    "concentration convection velocity 3": {
+      "name": "Concentration Convection Velocity 3",
+      "type": "Real"
+    },
+    "convection velocity 1": {
+      "name": "Convection Velocity 1",
+      "type": "Real"
+    },
+    "convection velocity 2": {
+      "name": "Convection Velocity 2",
+      "type": "Real"
+    },
+    "convection velocity 3": {
+      "name": "Convection Velocity 3",
+      "type": "Real"
+    },
+    "frequency": {
+      "name": "Frequency",
+      "type": "Real"
+    },
+    "ke clip": {
+      "name": "KE Clip",
+      "type": "Real"
+    },
+    "normal velocity": {
+      "name": "Normal Velocity",
+      "type": "Real"
+    },
+    "surface velocity 1": {
+      "name": "Surface Velocity 1",
+      "type": "Real"
+    },
+    "surface velocity 2": {
+      "name": "Surface Velocity 2",
+      "type": "Real"
+    },
+    "surface velocity 3": {
+      "name": "Surface Velocity 3",
+      "type": "Real"
+    },
+    "tangent velocity 1": {
+      "name": "Tangent Velocity 1",
+      "type": "Real"
+    },
+    "tangent velocity 2": {
+      "name": "Tangent Velocity 2",
+      "type": "Real"
+    },
+    "tangent velocity 3": {
+      "name": "Tangent Velocity 3",
+      "type": "Real"
+    },
+    "concentration convection": {
+      "name": "Concentration Convection",
+      "type": "String"
+    },
+    "concentration units": {
+      "name": "Concentration Units",
+      "type": "String"
+    },
+    "convection": {
+      "name": "Convection",
+      "type": "String"
+    },
+    "electric field": {
+      "name": "Electric Field",
+      "type": "String"
+    },
+    "name": {
+      "name": "Name",
+      "type": "String"
+    },
+    "phase change model": {
+      "name": "Phase Change Model",
+      "type": "String"
+    },
+    "element": {
+      "name": "Element",
+      "type": "String"
+    }
+  },
+  "ic": {
+    "concentration": {
+      "name": "Concentration",
+      "type": "Real"
+    },
+    "deflection 1": {
+      "name": "Deflection 1",
+      "type": "Real"
+    },
+    "deflection 2": {
+      "name": "Deflection 2",
+      "type": "Real"
+    },
+    "deflection 3": {
+      "name": "Deflection 3",
+      "type": "Real"
+    },
+    "displacement 1": {
+      "name": "Displacement 1",
+      "type": "Real"
+    },
+    "displacement 2": {
+      "name": "Displacement 2",
+      "type": "Real"
+    },
+    "displacement 3": {
+      "name": "Displacement 3",
+      "type": "Real"
+    },
+    "displacement velocity 1": {
+      "name": "Displacement Velocity 1",
+      "type": "Real"
+    },
+    "displacement velocity 2": {
+      "name": "Displacement Velocity 2",
+      "type": "Real"
+    },
+    "displacement velocity 3": {
+      "name": "Displacement Velocity 3",
+      "type": "Real"
+    },
+    "electric current 1": {
+      "name": "Electric Current 1",
+      "type": "Real"
+    },
+    "electric current 2": {
+      "name": "Electric Current 2",
+      "type": "Real"
+    },
+    "electric current 3": {
+      "name": "Electric Current 3",
+      "type": "Real"
+    },
+    "filmpressure loads": {
+      "name": "FilmPressure Loads",
+      "type": "Real"
+    },
+    "filmpressure": {
+      "name": "FilmPressure",
+      "type": "Real"
+    },
+    "freesurface": {
+      "name": "FreeSurface",
+      "type": "Real"
+    },
+    "kepsilon 1": {
+      "name": "KEpsilon 1",
+      "type": "Real"
+    },
+    "kepsilon 2": {
+      "name": "KEpsilon 2",
+      "type": "Real"
+    },
+    "kinetic dissipation": {
+      "name": "Kinetic Dissipation",
+      "type": "Real"
+    },
+    "kinetic energy": {
+      "name": "Kinetic Energy",
+      "type": "Real"
+    },
+    "magnetic field 1": {
+      "name": "Magnetic Field 1",
+      "type": "Real"
+    },
+    "magnetic field 2": {
+      "name": "Magnetic Field 2",
+      "type": "Real"
+    },
+    "magnetic field 3": {
+      "name": "Magnetic Field 3",
+      "type": "Real"
+    },
+    "magnetic flux density 1": {
+      "name": "Magnetic Flux Density 1",
+      "type": "Real"
+    },
+    "magnetic flux density 2": {
+      "name": "Magnetic Flux Density 2",
+      "type": "Real"
+    },
+    "magnetic flux density 3": {
+      "name": "Magnetic Flux Density 3",
+      "type": "Real"
+    },
+    "mesh update 1": {
+      "name": "Mesh Update 1",
+      "type": "Real"
+    },
+    "mesh update 2": {
+      "name": "Mesh Update 2",
+      "type": "Real"
+    },
+    "mesh update 3": {
+      "name": "Mesh Update 3",
+      "type": "Real"
+    },
+    "potential": {
+      "name": "Potential",
+      "type": "Real"
+    },
+    "pressure wave 1": {
+      "name": "Pressure Wave 1",
+      "type": "Real"
+    },
+    "pressure wave 2": {
+      "name": "Pressure Wave 2",
+      "type": "Real"
+    },
+    "pressure": {
+      "name": "Pressure",
+      "type": "Real"
+    },
+    "surface": {
+      "name": "Surface",
+      "type": "Real"
+    },
+    "temperature": {
+      "name": "Temperature",
+      "type": "Real"
+    },
+    "velocity 1": {
+      "name": "Velocity 1",
+      "type": "Real"
+    },
+    "velocity 2": {
+      "name": "Velocity 2",
+      "type": "Real"
+    },
+    "velocity 3": {
+      "name": "Velocity 3",
+      "type": "Real"
+    },
+    "field": {
+      "name": "Field",
+      "type": "Real"
+    },
+    "name": {
+      "name": "Name",
+      "type": "String"
+    }
+  },
+  "material": {
+    "charge number": {
+      "name": "Charge Number",
+      "type": "Integer"
+    },
+    "negative charge number": {
+      "name": "Negative Charge Number",
+      "type": "Integer"
+    },
+    "number of material constants": {
+      "name": "Number of Material Constants",
+      "type": "Integer"
+    },
+    "number of state variables": {
+      "name": "Number of State Variables",
+      "type": "Integer"
+    },
+    "positive charge number": {
+      "name": "Positive Charge Number",
+      "type": "Integer"
+    },
+    "porous media": {
+      "name": "Porous Media",
+      "type": "Logical"
+    },
+    "rayleigh damping": {
+      "name": "Rayleigh Damping",
+      "type": "Logical"
+    },
+    "rotate elasticity tensor": {
+      "name": "Rotate Elasticity Tensor",
+      "type": "Logical"
+    },
+    "radiative body": {
+      "name": "Radiative Body",
+      "type": "Logical"
+    },
+    "advection velocity 1": {
+      "name": "Advection Velocity 1",
+      "type": "Real"
+    },
+    "advection velocity 2": {
+      "name": "Advection Velocity 2",
+      "type": "Real"
+    },
+    "advection velocity 3": {
+      "name": "Advection Velocity 3",
+      "type": "Real"
+    },
+    "amatrix": {
+      "name": "Amatrix",
+      "type": "Real"
+    },
+    "applied magnetic field 1": {
+      "name": "Applied Magnetic Field 1",
+      "type": "Real"
+    },
+    "applied magnetic field 2": {
+      "name": "Applied Magnetic Field 2",
+      "type": "Real"
+    },
+    "applied magnetic field 3": {
+      "name": "Applied Magnetic Field 3",
+      "type": "Real"
+    },
+    "artery poisson ratio": {
+      "name": "Artery Poisson Ratio",
+      "type": "Real"
+    },
+    "artery radius": {
+      "name": "Artery Radius",
+      "type": "Real"
+    },
+    "artery wall thickness": {
+      "name": "Artery Wall Thickness",
+      "type": "Real"
+    },
+    "artery wall youngs modulus": {
+      "name": "Artery Wall Youngs Modulus",
+      "type": "Real"
+    },
+    "artificial compressibility": {
+      "name": "Artificial Compressibility",
+      "type": "Real"
+    },
+    "artificial pressure": {
+      "name": "Artificial Pressure",
+      "type": "Real"
+    },
+    "ascalar 1": {
+      "name": "Ascalar 1",
+      "type": "Real"
+    },
+    "ascalar 2": {
+      "name": "Ascalar 2",
+      "type": "Real"
+    },
+    "avector 1": {
+      "name": "Avector 1",
+      "type": "Real"
+    },
+    "avector 2": {
+      "name": "Avector 2",
+      "type": "Real"
+    },
+    "brooks and corey air entry value": {
+      "name": "Brooks and Corey Air entry value",
+      "type": "Real"
+    },
+    "brooks and corey lambda": {
+      "name": "Brooks and Corey Lambda",
+      "type": "Real"
+    },
+    "bscalar 1": {
+      "name": "Bscalar 1",
+      "type": "Real"
+    },
+    "bscalar 2": {
+      "name": "Bscalar 2",
+      "type": "Real"
+    },
+    "beam axis offset 2": {
+      "name": "Beam Axis Offset 2",
+      "type": "Real"
+    },
+    "beam axis offset 3": {
+      "name": "Beam Axis Offset 3",
+      "type": "Real"
+    },
+    "bulk modulus": {
+      "name": "Bulk Modulus",
+      "type": "Real"
+    },
+    "bulk viscosity": {
+      "name": "Bulk Viscosity",
+      "type": "Real"
+    },
+    "bvector": {
+      "name": "Bvector",
+      "type": "Real"
+    },
+    "concentration diffusivity": {
+      "name": "Concentration Diffusivity",
+      "type": "Real"
+    },
+    "concentration ion charge": {
+      "name": "Concentration Ion Charge",
+      "type": "Real"
+    },
+    "concentration soret diffusivity": {
+      "name": "Concentration Soret Diffusivity",
+      "type": "Real"
+    },
+    "convection velocity 1": {
+      "name": "Convection Velocity 1",
+      "type": "Real"
+    },
+    "convection velocity 2": {
+      "name": "Convection Velocity 2",
+      "type": "Real"
+    },
+    "convection velocity 3": {
+      "name": "Convection Velocity 3",
+      "type": "Real"
+    },
+    "critical shear rate": {
+      "name": "Critical Shear Rate",
+      "type": "Real"
+    },
+    "cross section area": {
+      "name": "Cross Section Area",
+      "type": "Real"
+    },
+    "damping": {
+      "name": "Damping",
+      "type": "Real"
+    },
+    "director": {
+      "name": "Director",
+      "type": "Real"
+    },
+    "rayleigh damping alpha": {
+      "name": "Rayleigh Damping Alpha",
+      "type": "Real"
+    },
+    "rayleigh damping beta": {
+      "name": "Rayleigh Damping Beta",
+      "type": "Real"
+    },
+    "density": {
+      "name": "Density",
+      "type": "Real"
+    },
+    "effective heat capacity": {
+      "name": "Effective Heat Capacity",
+      "type": "Real"
+    },
+    "effective viscosity": {
+      "name": "Effective Viscosity",
+      "type": "Real"
+    },
+    "electric conductivity": {
+      "name": "Electric Conductivity",
+      "type": "Real"
+    },
+    "electric conductivity im": {
+      "name": "Electric Conductivity Im",
+      "type": "Real"
+    },
+    "electric field 1": {
+      "name": "Electric Field 1",
+      "type": "Real"
+    },
+    "electric field 2": {
+      "name": "Electric Field 2",
+      "type": "Real"
+    },
+    "electric field 3": {
+      "name": "Electric Field 3",
+      "type": "Real"
+    },
+    "electrical conductivity": {
+      "name": "Electrical Conductivity",
+      "type": "Real"
+    },
+    "emissivity": {
+      "name": "Emissivity",
+      "type": "Real"
+    },
+    "enthalpy": {
+      "name": "Enthalpy",
+      "type": "Real"
+    },
+    "equilibrium density": {
+      "name": "Equilibrium Density",
+      "type": "Real"
+    },
+    "equilibrium temperature": {
+      "name": "Equilibrium Temperature",
+      "type": "Real"
+    },
+    "flow admittance": {
+      "name": "Flow Admittance",
+      "type": "Real"
+    },
+    "gap height": {
+      "name": "Gap Height",
+      "type": "Real"
+    },
+    "gas density": {
+      "name": "Gas Density",
+      "type": "Real"
+    },
+    "glen enhancement factor": {
+      "name": "Glen Enhancement Factor",
+      "type": "Real"
+    },
+    "glen exponent": {
+      "name": "Glen Exponent",
+      "type": "Real"
+    },
+    "h-b curve": {
+      "name": "H-B Curve",
+      "type": "Real"
+    },
+    "heat capacity": {
+      "name": "Heat Capacity",
+      "type": "Real"
+    },
+    "heat conductivity": {
+      "name": "Heat Conductivity",
+      "type": "Real"
+    },
+    "heat expansion coefficient": {
+      "name": "Heat Expansion Coefficient",
+      "type": "Real"
+    },
+    "hole depth": {
+      "name": "Hole Depth",
+      "type": "Real"
+    },
+    "hole fraction": {
+      "name": "Hole Fraction",
+      "type": "Real"
+    },
+    "hole size": {
+      "name": "Hole Size",
+      "type": "Real"
+    },
+    "hydraulic conductivity": {
+      "name": "Hydraulic Conductivity",
+      "type": "Real"
+    },
+    "im body force 1": {
+      "name": "Im Body Force 1",
+      "type": "Real"
+    },
+    "im body force 2": {
+      "name": "Im Body Force 2",
+      "type": "Real"
+    },
+    "im body force 3": {
+      "name": "Im Body Force 3",
+      "type": "Real"
+    },
+    "im heat source": {
+      "name": "Im Heat Source",
+      "type": "Real"
+    },
+    "ion density": {
+      "name": "Ion Density",
+      "type": "Real"
+    },
+    "ke c1": {
+      "name": "KE C1",
+      "type": "Real"
+    },
+    "ke c2": {
+      "name": "KE C2",
+      "type": "Real"
+    },
+    "ke clip": {
+      "name": "KE Clip",
+      "type": "Real"
+    },
+    "ke cmu": {
+      "name": "KE Cmu",
+      "type": "Real"
+    },
+    "ke sigmae": {
+      "name": "KE SigmaE",
+      "type": "Real"
+    },
+    "ke sigmak": {
+      "name": "KE SigmaK",
+      "type": "Real"
+    },
+    "latent heat": {
+      "name": "Latent Heat",
+      "type": "Real"
+    },
+    "layer permittivity": {
+      "name": "Layer Permittivity",
+      "type": "Real"
+    },
+    "layer thickness": {
+      "name": "Layer Thickness",
+      "type": "Real"
+    },
+    "levelset bandwidth": {
+      "name": "Levelset Bandwidth",
+      "type": "Real"
+    },
+    "levelset velocity 1": {
+      "name": "Levelset Velocity 1",
+      "type": "Real"
+    },
+    "levelset velocity 2": {
+      "name": "Levelset Velocity 2",
+      "type": "Real"
+    },
+    "levelset velocity 3": {
+      "name": "Levelset Velocity 3",
+      "type": "Real"
+    },
+    "mhd velocity 1": {
+      "name": "MHD Velocity 1",
+      "type": "Real"
+    },
+    "mhd velocity 2": {
+      "name": "MHD Velocity 2",
+      "type": "Real"
+    },
+    "mhd velocity 3": {
+      "name": "MHD Velocity 3",
+      "type": "Real"
+    },
+    "magnetic permeability": {
+      "name": "Magnetic Permeability",
+      "type": "Real"
+    },
+    "magnetization 1": {
+      "name": "Magnetization 1",
+      "type": "Real"
+    },
+    "magnetization 2": {
+      "name": "Magnetization 2",
+      "type": "Real"
+    },
+    "magnetization 3": {
+      "name": "Magnetization 3",
+      "type": "Real"
+    },
+    "magnetization im 1": {
+      "name": "Magnetization Im 1",
+      "type": "Real"
+    },
+    "magnetization im 2": {
+      "name": "Magnetization Im 2",
+      "type": "Real"
+    },
+    "magnetization im 3": {
+      "name": "Magnetization Im 3",
+      "type": "Real"
+    },
+    "material constants": {
+      "name": "Material Constants",
+      "type": "Real"
+    },
+    "material coordinates unit vector 1": {
+      "name": "Material Coordinates Unit Vector 1",
+      "type": "Real"
+    },
+    "material coordinates unit vector 2": {
+      "name": "Material Coordinates Unit Vector 2",
+      "type": "Real"
+    },
+    "material coordinates unit vector 3": {
+      "name": "Material Coordinates Unit Vector 3",
+      "type": "Real"
+    },
+    "material parameter": {
+      "name": "Material Parameter",
+      "type": "Real"
+    },
+    "max freesurface": {
+      "name": "Max FreeSurface",
+      "type": "Real"
+    },
+    "mean free path": {
+      "name": "Mean free path",
+      "type": "Real"
+    },
+    "melting point": {
+      "name": "Melting Point",
+      "type": "Real"
+    },
+    "mesh elastic modulus": {
+      "name": "Mesh Elastic Modulus",
+      "type": "Real"
+    },
+    "mesh poisson ratio": {
+      "name": "Mesh Poisson Ratio",
+      "type": "Real"
+    },
+    "mesh velocity 1": {
+      "name": "Mesh Velocity 1",
+      "type": "Real"
+    },
+    "mesh velocity 2": {
+      "name": "Mesh Velocity 2",
+      "type": "Real"
+    },
+    "mesh velocity 3": {
+      "name": "Mesh Velocity 3",
+      "type": "Real"
+    },
+    "min freesurface": {
+      "name": "Min FreeSurface",
+      "type": "Real"
+    },
+    "negative ion density": {
+      "name": "Negative Ion Density",
+      "type": "Real"
+    },
+    "normal velocity": {
+      "name": "Normal Velocity",
+      "type": "Real"
+    },
+    "permittivity": {
+      "name": "Permittivity",
+      "type": "Real"
+    },
+    "phase change intervals": {
+      "name": "Phase Change Intervals",
+      "type": "Real"
+    },
+    "piezo material coefficients": {
+      "name": "Piezo Material Coefficients",
+      "type": "Real"
+    },
+    "poisson boltzmann alpha": {
+      "name": "Poisson Boltzmann Alpha",
+      "type": "Real"
+    },
+    "poisson boltzmann beta": {
+      "name": "Poisson Boltzmann Beta",
+      "type": "Real"
+    },
+    "poisson ratio": {
+      "name": "Poisson Ratio",
+      "type": "Real"
+    },
+    "porous resistivity": {
+      "name": "Porous Resistivity",
+      "type": "Real"
+    },
+    "positive ion density": {
+      "name": "Positive Ion Density",
+      "type": "Real"
+    },
+    "potential difference": {
+      "name": "Potential Difference",
+      "type": "Real"
+    },
+    "pre strain": {
+      "name": "Pre Strain",
+      "type": "Real"
+    },
+    "pre stress": {
+      "name": "Pre Stress",
+      "type": "Real"
+    },
+    "pressure coefficient": {
+      "name": "Pressure Coefficient",
+      "type": "Real"
+    },
+    "principal direction 2": {
+      "name": "Principal direction 2",
+      "type": "Real"
+    },
+    "re body force 1": {
+      "name": "Re Body Force 1",
+      "type": "Real"
+    },
+    "re body force 2": {
+      "name": "Re Body Force 2",
+      "type": "Real"
+    },
+    "re body force 3": {
+      "name": "Re Body Force 3",
+      "type": "Real"
+    },
+    "re heat source": {
+      "name": "Re Heat Source",
+      "type": "Real"
+    },
+    "reference epotential": {
+      "name": "Reference EPotential",
+      "type": "Real"
+    },
+    "reference plane": {
+      "name": "Reference Plane",
+      "type": "Real"
+    },
+    "reference pressure": {
+      "name": "Reference Pressure",
+      "type": "Real"
+    },
+    "reference temperature": {
+      "name": "Reference Temperature",
+      "type": "Real"
+    },
+    "relative permeability": {
+      "name": "Relative Permeability",
+      "type": "Real"
+    },
+    "relative permittivity": {
+      "name": "Relative Permittivity",
+      "type": "Real"
+    },
+    "relative permittivity im": {
+      "name": "Relative Permittivity Im",
+      "type": "Real"
+    },
+    "reluctivity": {
+      "name": "Reluctivity",
+      "type": "Real"
+    },
+    "residual water content": {
+      "name": "Residual Water Content",
+      "type": "Real"
+    },
+    "saturated hydraulic conductivity": {
+      "name": "Saturated Hydraulic Conductivity",
+      "type": "Real"
+    },
+    "saturated water content": {
+      "name": "Saturated Water Content",
+      "type": "Real"
+    },
+    "second moment of area 2": {
+      "name": "Second Moment of Area 2",
+      "type": "Real"
+    },
+    "second moment of area 3": {
+      "name": "Second Moment of Area 3",
+      "type": "Real"
+    },
+    "smagorinsky constant": {
+      "name": "Smagorinsky Constant",
+      "type": "Real"
+    },
+    "sound damping": {
+      "name": "Sound Damping",
+      "type": "Real"
+    },
+    "sound reaction damping": {
+      "name": "Sound Reaction Damping",
+      "type": "Real"
+    },
+    "sound speed": {
+      "name": "Sound Speed",
+      "type": "Real"
+    },
+    "species diffusivity": {
+      "name": "Species Diffusivity",
+      "type": "Real"
+    },
+    "specific enthalpy": {
+      "name": "Specific Enthalpy",
+      "type": "Real"
+    },
+    "specific heat ratio": {
+      "name": "Specific Heat Ratio",
+      "type": "Real"
+    },
+    "specific heat": {
+      "name": "Specific Heat",
+      "type": "Real"
+    },
+    "strain": {
+      "name": "Strain",
+      "type": "Real"
+    },
+    "stress": {
+      "name": "Stress",
+      "type": "Real"
+    },
+    "surface velocity 1": {
+      "name": "Surface Velocity 1",
+      "type": "Real"
+    },
+    "surface velocity 2": {
+      "name": "Surface Velocity 2",
+      "type": "Real"
+    },
+    "surface velocity 3": {
+      "name": "Surface Velocity 3",
+      "type": "Real"
+    },
+    "tangent velocity 1": {
+      "name": "Tangent Velocity 1",
+      "type": "Real"
+    },
+    "tangent velocity 2": {
+      "name": "Tangent Velocity 2",
+      "type": "Real"
+    },
+    "tangent velocity 3": {
+      "name": "Tangent Velocity 3",
+      "type": "Real"
+    },
+    "tension": {
+      "name": "Tension",
+      "type": "Real"
+    },
+    "thickness": {
+      "name": "Thickness",
+      "type": "Real"
+    },
+    "torsional constant": {
+      "name": "Torsional Constant",
+      "type": "Real"
+    },
+    "transmissivity": {
+      "name": "Transmissivity",
+      "type": "Real"
+    },
+    "viscosity difference": {
+      "name": "Viscosity Difference",
+      "type": "Real"
+    },
+    "viscosity exponent": {
+      "name": "Viscosity Exponent",
+      "type": "Real"
+    },
+    "viscosity temp exp": {
+      "name": "Viscosity Temp Exp",
+      "type": "Real"
+    },
+    "viscosity temp ref": {
+      "name": "Viscosity Temp Ref",
+      "type": "Real"
+    },
+    "viscosity transition": {
+      "name": "Viscosity Transition",
+      "type": "Real"
+    },
+    "viscosity": {
+      "name": "Viscosity",
+      "type": "Real"
+    },
+    "water content": {
+      "name": "Water Content",
+      "type": "Real"
+    },
+    "yasuda coefficient": {
+      "name": "Yasuda Coefficient",
+      "type": "Real"
+    },
+    "youngs modulus": {
+      "name": "Youngs Modulus",
+      "type": "Real"
+    },
+    "van genuchten alpha": {
+      "name": "van Genuchten Alpha",
+      "type": "Real"
+    },
+    "van genuchten m": {
+      "name": "van Genuchten M",
+      "type": "Real"
+    },
+    "van genuchten n": {
+      "name": "van Genuchten N",
+      "type": "Real"
+    },
+    "diffusion coefficient": {
+      "name": "Diffusion Coefficient",
+      "type": "Real"
+    },
+    "reaction coefficient": {
+      "name": "Reaction Coefficient",
+      "type": "Real"
+    },
+    "convection coefficient": {
+      "name": "Convection Coefficient",
+      "type": "Real"
+    },
+    "time derivative coefficient": {
+      "name": "Time Derivative Coefficient",
+      "type": "Real"
+    },
+    "viscosity function": {
+      "name": "Viscosity Function",
+      "type": "String"
+    },
+    "compressibility model": {
+      "name": "Compressibility Model",
+      "type": "String"
+    },
+    "convection field variable": {
+      "name": "Convection Field Variable",
+      "type": "String"
+    },
+    "epotential field variable": {
+      "name": "EPotential Field Variable",
+      "type": "String"
+    },
+    "heat conductivity function": {
+      "name": "Heat Conductivity Function",
+      "type": "String"
+    },
+    "heat conductivity model": {
+      "name": "Heat Conductivity Model",
+      "type": "String"
+    },
+    "hole type": {
+      "name": "Hole Type",
+      "type": "String"
+    },
+    "ke model": {
+      "name": "KE Model",
+      "type": "String"
+    },
+    "name": {
+      "name": "Name",
+      "type": "String"
+    },
+    "phase change model": {
+      "name": "Phase Change Model",
+      "type": "String"
+    },
+    "porosity model": {
+      "name": "Porosity Model",
+      "type": "String"
+    },
+    "temperature field variable": {
+      "name": "Temperature Field Variable",
+      "type": "String"
+    },
+    "viscosity model": {
+      "name": "Viscosity Model",
+      "type": "String"
+    },
+    "rho0": {
+      "name": "rho0",
+      "type": "Real"
+    },
+    "rho1": {
+      "name": "rho1",
+      "type": "Real"
+    },
+    "foil layer heat conductivity": {
+      "name": "Foil Layer Heat Conductivity",
+      "type": "Real"
+    },
+    "material heat conductivity": {
+      "name": "Material Heat Conductivity",
+      "type": "Real"
+    },
+    "arrhenius factor": {
+      "name": "Arrhenius Factor",
+      "type": "Real"
+    },
+    "rate factor 1": {
+      "name": "Rate Factor 1",
+      "type": "Real"
+    },
+    "rate factor 2": {
+      "name": "Rate Factor 2",
+      "type": "Real"
+    },
+    "activation energy 1": {
+      "name": "Activation Energy 1",
+      "type": "Real"
+    },
+    "activation energy 2": {
+      "name": "Activation Energy 2",
+      "type": "Real"
+    },
+    "glen enhancement factor function": {
+      "name": "Glen Enhancement Factor Function",
+      "type": "String"
+    },
+    "turbulent prandtl number": {
+      "name": "Turbulent Prandtl Number",
+      "type": "Real"
+    },
+    "shear modulus": {
+      "name": "Shear Modulus",
+      "type": "Real"
+    },
+    "tensile strength": {
+      "name": "Tensile strength",
+      "type": "Real"
+    },
+    "yield strength": {
+      "name": "Yield strength",
+      "type": "Real"
+    },
+    "pfm dipoles field strength": {
+      "name": "PFM Dipoles Field Strength",
+      "type": "Real"
+    },
+    "pfm dipoles flux density": {
+      "name": "PFM Dipoles Flux Density",
+      "type": "Real"
+    },
+    "pfm relative tolerance": {
+      "name": "PFM Relative Tolerance",
+      "type": "Real"
+    },
+    "pfm max iterations": {
+      "name": "PFM Max Iterations",
+      "type": "Real"
+    },
+    "draw velocity": {
+      "name": "Draw Velocity",
+      "type": "Real"
+    }
+  }
+}

@@ -2,14 +2,15 @@
   "name": "vscode-elmer",
   "displayName": "Elmer",
   "description": "Elmer FEM Solver Input File (.sif) language support for Visual Studio Code",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "elmer-community",
   "license": "MIT",
   "engines": {
     "vscode": "^1.60.0"
   },
   "categories": [
-    "Programming Languages"
+    "Programming Languages",
+    "Linters"
   ],
   "keywords": [
     "elmer",
@@ -27,6 +28,10 @@
     "url": "https://github.com/your-username/vscode-elmer/issues"
   },
   "homepage": "https://www.elmerfem.org/",
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onLanguage:elmer"
+  ],
   "contributes": {
     "languages": [
       {
@@ -49,5 +54,16 @@
         "path": "./syntaxes/elmer.tmLanguage.json"
       }
     ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package --allow-missing-repository"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.60.0",
+    "@types/node": "^16.x",
+    "typescript": "^5.0.0"
   }
 }

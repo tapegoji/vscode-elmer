@@ -41,11 +41,11 @@
       "patterns": [
         {
           "name": "keyword.control.block.elmer",
-          "match": "(?i)^\\s*(Header|Simulation|Constants|Equation|Solver|Material|Body\\s+Force|Body|Boundary\\s+Condition|Initial\\s+Condition|Component|Boundary)\\b"
+          "match": "(?i)^\\s*(Header|Simulation|Constants|Equation|Solver|Material|Body\\s+Force|Body|Boundary\\s+Condition|Initial\\s+Condition|Component|Boundary)(\\s+\\d+)?\\s*$"
         },
         {
           "name": "keyword.control.end.elmer",
-          "match": "(?i)\\bEnd\\b"
+          "match": "(?i)^\\s*End\\s*$"
         }
       ]
     },
